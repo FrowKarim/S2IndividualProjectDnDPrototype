@@ -1,0 +1,24 @@
+﻿@page
+@model S2IndividualProjectDnDPrototype.Pages.PersonPageModel
+@{
+}
+
+<div>
+    Here is all the person data
+</div>
+
+<table class="Table">
+    <thead>
+    <td>Name</td>
+    <td>Age</td>
+    <td>Gender</td>
+    </thead>
+    @foreach (Models.Person pers in Model.People)
+    {
+        <tr>
+            <td>@pers.Name</td>
+            <td>@pers.Age</td>
+            <td>@pers.Gender</td>
+        </tr>
+    }
+</table>

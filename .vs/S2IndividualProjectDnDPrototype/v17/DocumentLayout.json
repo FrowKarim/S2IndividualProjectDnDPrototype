@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\personpages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\personpages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\personpages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\personpages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\personpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\personpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\helpers\\persondataconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\helpers\\persondataconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\loginpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\loginpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\personpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\personpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T12:06:49.385Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAIwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-03T09:58:48.851Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T10:19:15.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml",
+              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T09:36:19.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginPage.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\LoginPage.cshtml.cs",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\LoginPage.cshtml.cs",
+              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\LoginPage.cshtml.cs",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\LoginPage.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T09:10:30Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T13:20:58.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml.cs",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T13:59:23.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml",
+              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T13:49:54.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PersonDataConnector.cs",
+              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Helpers\\PersonDataConnector.cs",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Helpers\\PersonDataConnector.cs",
+              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Helpers\\PersonDataConnector.cs",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Helpers\\PersonDataConnector.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAIBJwFkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T10:08:36.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PersonPage.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml.cs",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml.cs",
+              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml.cs",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:21:15.277Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿@page
+@model S2IndividualProjectDnDPrototype.Pages.LoginPageModel
+@{
+}
+
+<title>Go ahead, log in</title>
+<p> This is the login page </p>
+
+<form method="post">
+<p>Username</p>    <input asp-for= "User.Name" ></>
+<p>Password</p>    <input asp-for="User.Password"></>
+    <input type="submit" value="Log in" />
+</form>
+
+<p>@ViewData["message"]</p>

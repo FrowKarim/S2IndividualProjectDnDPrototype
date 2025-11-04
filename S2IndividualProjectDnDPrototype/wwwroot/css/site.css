@@ -1,0 +1,103 @@
+html {
+  font-size: 14px;
+}
+
+
+:root {
+    --bg-dark: oklch(0.1 0.05 340);
+    --bg: oklch(0.15 0.05 340);
+    --bg-light: oklch(0.2 0.05 340);
+    --text: oklch(0.96 0.1 340);
+    --text-muted: oklch(0.76 0.1 340);
+    --highlight: oklch(0.5 0.1 340);
+    --border: oklch(0.4 0.1 340);
+    --border-muted: oklch(0.3 0.1 340);
+    --primary: oklch(0.76 0.1 340);
+    --secondary: oklch(0.76 0.1 160);
+    --danger: oklch(0.7 0.1 30);
+    --warning: oklch(0.7 0.1 100);
+    --success: oklch(0.7 0.1 160);
+    --info: oklch(0.7 0.1 260);
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    /*background-color: hsl(0, 0%, 20%);*/
+    background-color: var(--bg-light);
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+/*  background-color: hsl(0, 0%, 15%);*/
+ background-color: var(--bg-dark);
+  color: white;
+}
+
+
+center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: ridge;
+
+    align-content: center;
+    text-align: center;
+    padding-inline: 0.5em;
+    place-items: center;
+    
+     margin-left: auto;
+     margin-right: auto;
+
+    /*border-color: hsl(215, 100%, 70%);
+    background-color: hsl(215, 100% 40%); OLD COLORS*/
+    border-color: var(--border);
+    background-color: var(--bg);
+    
+}
+
+container {
+    align-content: center;   
+    justify-items: center;
+}
+
+tr:hover {
+    /*background-color: hsl(0,0%, 10%);*/
+    background-color: var(--bg-light);
+}
+
+.henk{
+    background-color: tomato;
+}
+
+.card {
+    display: inline-block;
+    border-width: 2px;
+    border-color: var(--border);
+    padding: 0.5em;
+}
+
+btn, btn-primary {
+    border-color: var(--border);
+    background-color: var(--bg);
+
+}
+
+btn:hover, btn-primary:hover {
+    background-color: var(--bg-light);
+}
