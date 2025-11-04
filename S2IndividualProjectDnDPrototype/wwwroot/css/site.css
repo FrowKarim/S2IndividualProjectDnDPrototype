@@ -4,6 +4,7 @@ html {
 
 
 :root {
+    /*Black 'n Purple Theme*/
     --bg-dark: oklch(0.1 0.05 340);
     --bg: oklch(0.15 0.05 340);
     --bg-light: oklch(0.2 0.05 340);
@@ -18,6 +19,7 @@ html {
     --warning: oklch(0.7 0.1 100);
     --success: oklch(0.7 0.1 160);
     --info: oklch(0.7 0.1 260);
+    --transition: 0.3s ease-in-out;
 }
 
 @media (min-width: 768px) {
@@ -92,12 +94,14 @@ tr:hover {
     padding: 0.5em;
 }
 
-btn, btn-primary {
-    border-color: var(--border);
+.btn, btn-primary {
     background-color: var(--bg);
-
+    border-color: var(--border-muted);
 }
 
-btn:hover, btn-primary:hover {
+.btn:hover, btn-primary:hover {
     background-color: var(--bg-light);
+    scale: 1.05;
+    transition: var(--transition);
+    border-color: var(--border);
 }

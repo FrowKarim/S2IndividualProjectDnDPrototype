@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,30 +50,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml",
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-20T12:06:49.385Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\wwwroot\\css\\site.css",
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAIwFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-11-03T09:58:48.851Z",
               "IsPinned": true,
