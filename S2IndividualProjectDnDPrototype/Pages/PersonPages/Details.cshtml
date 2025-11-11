@@ -1,7 +1,25 @@
 ﻿@page 
 @model S2IndividualProjectDnDPrototype.Pages.PersonPages.DetailsModel
-@{
-}
+@{}
 <h1>hallo </h1>
+@{
+
+    Models.Person person = Model.GetPerson();
+    <div class="card text-light text-center container-fluid" style="width:400px; margin:0.5em; background-color:var(--bg); ">
+        <div>
+
+
+            <h4 class="card-title"> @person.Name    </h4>
+            <p class="card-text"> @person.Name is @person.Age years old and is a @person.Gender.</p>
+            <p class="text-opacity-75 card-text"> @person.Name lives at @person.Address </p>
+            <a asp-page="./PersonPages/Details" asp-route-name="@person.Name" class="card-link btn btn-primary"> Link to PersonPage</a>
+            <a href="https://google.com" class="card-link btn btn-primary"> Link to google as well </a>
+
+        </div>
+    </div>
+    <br/>
+
+    <a asp-page="./Index">Back to people list</a>
+}
 
 @* // @page "{Name:String}" This completely bricked my code. *@
