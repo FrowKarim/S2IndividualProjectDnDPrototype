@@ -9,18 +9,23 @@ namespace S2IndividualProjectDnDPrototype.Pages.PersonPages
 {
     public class DetailsModel : PageModel
     {
-        public int ID { get; set; }
-
+        
+        
         public void OnGet()
         {
             
             PersonDataConnector conn = new PersonDataConnector();
-            Person SinglePerson = conn.GetPerson();
+            string userId = Request.Query["userID"].ToString();
+            Person SinglePerson = conn.GetPerson(userId);
             //People = conn.GetPeople();
         }
 
         public Person GetPerson()
         {
+            //string userId = Request.Query["userID"].ToString();
+            //PersonDataConnector conn = new PersonDataConnector();
+            //return conn.GetPerson(userId);
+
             Person person = new Person();
 
             string connectionString = ("Server=mssqlstud.fhict.local;" +
@@ -32,9 +37,9 @@ namespace S2IndividualProjectDnDPrototype.Pages.PersonPages
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                using (SqlCommand sqlcommand = new SqlCommand("SELECT * FROM Person WHERE Name= @name ", connection))
+                using (SqlCommand sqlcommand = new SqlCommand("SELECT * FROM Person WHERE ID= @Id ", connection))
                 {
-                    sqlcommand.Parameters.AddWithValue("@name", Request.Query["name"].ToString());
+                    sqlcommand.Parameters.AddWithValue("@Id", Request.Query["userID"].ToString());
                     using (SqlDataReader reader = sqlcommand.ExecuteReader())
                     {
                         while (reader.Read())
@@ -55,16 +60,16 @@ namespace S2IndividualProjectDnDPrototype.Pages.PersonPages
             }
 
 
-
-            //    using (MySqlConnection connection = new MySqlConnection(connectionString))
-            //    {
-            //        connection.Open();
-            //        using (MySqlCommand command = new MySqlCommand("SELECT * FROM student WHERE name = @name", connection))
-            //        {
-            //            command.Parameters.AddWithValue("@name", Request.Query["name"].ToString());
-
-
             return person;
         }
+
+        public Person getSinglePerson()
+        {
+            PersonDataConnector conn = new PersonDataConnector();
+            string userId = Request.Query["userID"].ToString();
+            Person SinglePerson = conn.GetPerson(userId);
+            return SinglePerson;
+        }
+
     }
 }

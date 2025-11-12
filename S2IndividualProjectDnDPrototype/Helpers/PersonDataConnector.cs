@@ -8,10 +8,10 @@ namespace S2IndividualProjectDnDPrototype.Helpers
 
     public class PersonDataConnector
     {
-        public Person GetPerson()
+        public Person GetPerson(String userID)
         {
             Person person = new Person();
-
+            
             string connectionString = ("Server=mssqlstud.fhict.local;" +
                                 "Database=dbi439179_test;" +
                                 "User Id=dbi439179_test;" +
@@ -21,38 +21,37 @@ namespace S2IndividualProjectDnDPrototype.Helpers
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                
-                    using (SqlCommand sqlcommand = new SqlCommand("SELECT * FROM Person WHERE Name='Frow' ", connection))
+                using (SqlCommand sqlcommand = new SqlCommand("SELECT * FROM Person WHERE ID= @Id ", connection))
+                {
+                    sqlcommand.Parameters.AddWithValue("@Id", userID);
+                    using (SqlDataReader reader = sqlcommand.ExecuteReader())
                     {
-
-                        using (SqlDataReader reader = sqlcommand.ExecuteReader())
+                        while (reader.Read())
                         {
-                            while (reader.Read())
-                            {
 
-                                person.Id = Convert.ToInt32(reader["ID"]);
-                                person.Name = reader["Name"].ToString();
-                                person.Age = Convert.ToInt32(reader["Age"]);
-                                person.Gender = reader["Gender"].ToString();
-                                person.Address = reader["Address"].ToString();
+                            person.Id = Convert.ToInt32(reader["ID"]);
+                            person.Name = reader["Name"].ToString();
+                            person.Age = Convert.ToInt32(reader["Age"]);
+                            person.Gender = reader["Gender"].ToString();
+                            person.Address = reader["Address"].ToString();
 
-                            }
                         }
-
-
                     }
-                
+
+
+                }
+
             }
 
-       
-        
-        //    using (MySqlConnection connection = new MySqlConnection(connectionString))
-        //    {
-        //        connection.Open();
-        //        using (MySqlCommand command = new MySqlCommand("SELECT * FROM student WHERE name = @name", connection))
-        //        {
-        //            command.Parameters.AddWithValue("@name", Request.Query["name"].ToString());
-   
+
+
+            //    using (MySqlConnection connection = new MySqlConnection(connectionString))
+            //    {
+            //        connection.Open();
+            //        using (MySqlCommand command = new MySqlCommand("SELECT * FROM student WHERE name = @name", connection))
+            //        {
+            //            command.Parameters.AddWithValue("@name", Request.Query["name"].ToString());
+
 
             return person;
         }

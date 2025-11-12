@@ -39,7 +39,7 @@
                 <h4 class="card-title"> @pers.Name    </h4>
                 <p class="card-text"> @pers.Name is @pers.Age years old and is a @pers.Gender.</p>
                 <p class="text-opacity-75 card-text"> @pers.Name lives at @pers.Address </p>
-                <a asp-page="./PersonPages/Details" asp-route-name="@pers.Name" class="card-link btn btn-primary"> Link to PersonPage</a>
+                <a asp-page="./PersonPages/Details" asp-route-userID="@pers.Id" class="card-link btn btn-primary"> Link to PersonPage</a>
                 <a href="https://google.com" class="card-link btn btn-primary"> Link to google as well </a>
         
            </div>

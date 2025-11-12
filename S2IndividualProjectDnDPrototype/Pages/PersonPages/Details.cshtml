@@ -12,14 +12,13 @@
             <h4 class="card-title"> @person.Name    </h4>
             <p class="card-text"> @person.Name is @person.Age years old and is a @person.Gender.</p>
             <p class="text-opacity-75 card-text"> @person.Name lives at @person.Address </p>
-            <a asp-page="./PersonPages/Details" asp-route-name="@person.Name" class="card-link btn btn-primary"> Link to PersonPage</a>
+            <a asp-page="/Index" asp-route-hasreturnedtopage="yeah" class="card-link btn btn-primary"> Back To index</a>
             <a href="https://google.com" class="card-link btn btn-primary"> Link to google as well </a>
 
         </div>
     </div>
     <br/>
 
-    <a asp-page="./Index">Back to people list</a>
 }
 
 @* // @page "{Name:String}" This completely bricked my code. *@
