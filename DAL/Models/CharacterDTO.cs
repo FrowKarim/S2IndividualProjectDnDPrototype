@@ -1,10 +1,10 @@
 ﻿using System.Diagnostics.CodeAnalysis;
-
-namespace S2IndividualProjectDnDPrototype.Models
+namespace DAL.Models
 {
-    public class Character
+    public class CharacterDTO
     {
         public int Id { get; set; }
+        public UserDTO user { get; set; }
         
         public int UserId { get; set; }
 
@@ -64,7 +64,7 @@ namespace S2IndividualProjectDnDPrototype.Models
         [AllowNull]
         public string Notes { get; set; }
 
-        public Character()
+        public CharacterDTO()
         {
 
         }

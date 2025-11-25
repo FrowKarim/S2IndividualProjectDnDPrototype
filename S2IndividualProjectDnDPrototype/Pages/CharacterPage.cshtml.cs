@@ -11,15 +11,15 @@ namespace S2IndividualProjectDnDPrototype.Pages
         {
             CharacterDataConnector conn = new CharacterDataConnector();
             string CharacterId = Request.Query["CharacterId"].ToString();
-            Character SingleCharacter = conn.GetCharacter(CharacterId);
+            CharacterViewModel SingleCharacter = conn.GetCharacter(CharacterId);
 
         }
 
-        public Character getSingleCharacter()
+        public CharacterViewModel getSingleCharacter()
         {
             CharacterDataConnector conn = new CharacterDataConnector();
             string CharacterId = Request.Query["CharacterId"].ToString();
-            Character SingleCharacter = conn.GetCharacter(CharacterId);
+            CharacterViewModel SingleCharacter = conn.GetCharacter(CharacterId);
             return SingleCharacter;
         }
 

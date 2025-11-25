@@ -1,15 +1,14 @@
 ﻿using Microsoft.Data.SqlClient;
-using S2IndividualProjectDnDPrototype.Models;
-using DAL;
-namespace S2IndividualProjectDnDPrototype.Helpers;
+using DAL.Models;
+namespace DAL.Repos;
 
 
 
 public class CharacterDataConnector
 {
-    public CharacterViewModel GetCharacter(String CharacterId)
+    public CharacterDTO GetCharacter(String CharacterId)
     {
-        CharacterViewModel Character = new CharacterViewModel();
+        CharacterDTO Character = new CharacterDTO();
 
         string connectionString = ("Server=mssqlstud.fhict.local;" +
                             "Database=dbi439179_test;" +
@@ -62,7 +61,7 @@ public class CharacterDataConnector
             }
 
         }
-        Class1 Hi = new Class1();
+        
 
         return Character;
     }
