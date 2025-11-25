@@ -9,6 +9,8 @@
         
         }
 
+        public int Id { get; set; } //Properties of user
+
         public string Name { get; set; } //Properties of user
         public string Password { get; set; } //Properties of user
 

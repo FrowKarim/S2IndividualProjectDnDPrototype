@@ -23,8 +23,8 @@ namespace S2IndividualProjectDnDPrototype.Pages
             {
                 ViewData["Message"] = "Credentials incorrect";
                 return Page();
-
             }
+
         }
 
     }
