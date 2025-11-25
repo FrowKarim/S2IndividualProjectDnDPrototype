@@ -3,15 +3,29 @@
 @{
 
     Models.Character character = Model.getSingleCharacter();
-    <div class="card text-light text-center container-fluid" style="width:400px; margin:0.5em; background-color:var(--bg); ">
+    <div class="card text-light text-center container-fluid" style="width:75% margin:0.5em; background-color:var(--bg); ">
         <div>
 
 
             <h4 class="card-title"> @character.Name    </h4>
-            <p class="card-text"> @character.Name is @character.Backpack1 years old and is a @character.Body1.</p>
-            <p class="text-opacity-75 card-text"> @character.Backpack1 lives at @character.Body2 </p>
+            <p class="card-text"> @character.Name is carrying a @character.LeftHand and is wearing @character.Body1.</p>
+            <p class="text-opacity-75 card-text"> Because of that he has an armor score of @character.Armor </p>
+
+            <h5>Other character stats</h5>
+            <p> @character.currentHealth / @character.maxHealth HP</p>
+            <p> @character.currentStrength / @character.maxStrength Strength</p>
+            <p> @character.currentDexterity / @character.maxDexterity Dexterity<p>
+            <p> @character.currentWill / @character.maxWill Willpower</p>
+            <p> @character.currentSpirit / @character.maxSpirit Spirit</p>
+            <p> @character.Armor Armor </p>
+            
+
+
             <a asp-page="/Index" asp-route-hasreturnedtopage="yeah" class="card-link btn btn-primary"> Back To index</a>
             <a href="https://google.com" class="card-link btn btn-primary"> Link to google as well </a>
+            
+
+
 
         </div>
     </div>

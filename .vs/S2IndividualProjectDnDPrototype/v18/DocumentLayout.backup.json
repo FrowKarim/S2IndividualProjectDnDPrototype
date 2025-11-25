@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\characterpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\characterpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\personpages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\personpages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\helpers\\characterdataconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\helpers\\characterdataconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\characterpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\characterpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\personpages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\personpages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\personpages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -74,11 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml",
@@ -87,18 +87,17 @@
               "ViewState": "AgIAABIAAAAAAAAAAAAqwCoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-20T12:06:49.385Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml.cs",
               "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml.cs",
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T13:59:23.94Z",
               "IsPinned": true,
@@ -106,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Models\\Character.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Models\\Character.cs",
@@ -114,12 +113,11 @@
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Models\\Character.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T10:11:31.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T10:11:31.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CharacterPage.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CharacterPage.cshtml.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPage.cshtml.cs",
@@ -127,18 +125,17 @@
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPage.cshtml.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAApwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T10:10:45.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T10:10:45.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "CharacterPage.cshtml",
               "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CharacterPage.cshtml",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPage.cshtml",
               "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CharacterPage.cshtml",
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-25T10:09:57.626Z",
               "EditorCaption": ""
@@ -153,8 +150,7 @@
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAIwAsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T13:20:58.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T13:20:58.919Z"
             },
             {
               "$type": "Document",
@@ -166,18 +162,17 @@
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-28T13:49:54.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T13:49:54.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CharacterDataConnector.cs",
               "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Helpers\\CharacterDataConnector.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Helpers\\CharacterDataConnector.cs",
               "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Helpers\\CharacterDataConnector.cs",
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Helpers\\CharacterDataConnector.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAqwCYAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T10:25:07.344Z",
               "EditorCaption": ""
@@ -192,8 +187,7 @@
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Models\\Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T10:24:18.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T10:24:18.67Z"
             },
             {
               "$type": "Document",
@@ -205,8 +199,7 @@
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\wwwroot\\css\\site.css",
               "ViewState": "AgIAACAAAAAAAAAAAAAAAGoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-03T09:58:48.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T09:58:48.851Z"
             },
             {
               "$type": "Document",
@@ -218,8 +211,7 @@
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Helpers\\PersonDataConnector.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAQwDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T10:08:36.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T10:08:36.746Z"
             },
             {
               "$type": "Document",
@@ -243,8 +235,7 @@
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T09:36:19.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T09:36:19.435Z"
             },
             {
               "$type": "Document",
@@ -256,8 +247,7 @@
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\LoginPage.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T09:10:30Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T09:10:30Z"
             },
             {
               "$type": "Document",
