@@ -1,9 +1,12 @@
-﻿namespace S2IndividualProjectDnDPrototype.Models
+﻿using DAL.Models;
+using DAL.Repos;
+
+namespace S2IndividualProjectDnDPrototype.Models
 {
-    public class User
+    public class UserViewModel
     {
 
-        public User() 
+        public UserViewModel() 
         { 
         // Constructor for the class
         

@@ -9,7 +9,7 @@ namespace S2IndividualProjectDnDPrototype.Pages
     public class IndexModel : PageModel
     {
 
-        public List<Person> People = new List<Person>();
+        public List<PersonViewModel> People = new List<PersonViewModel>();
 
 
 

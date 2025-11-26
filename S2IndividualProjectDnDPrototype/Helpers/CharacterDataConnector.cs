@@ -62,7 +62,7 @@ public class CharacterDataConnector
             }
 
         }
-        Class1 Hi = new Class1();
+        
 
         return Character;
     }

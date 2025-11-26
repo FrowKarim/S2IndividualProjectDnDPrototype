@@ -7,7 +7,7 @@ namespace S2IndividualProjectDnDPrototype.Pages
 {
     public class PersonPageModel : PageModel
     {
-        public List<Person> People = new List<Person>();
+        public List<PersonViewModel> People = new List<PersonViewModel>();
 
         public void OnGet()
         {

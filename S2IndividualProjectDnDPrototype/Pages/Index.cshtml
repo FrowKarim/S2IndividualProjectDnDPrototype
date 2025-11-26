@@ -18,7 +18,7 @@
             <td>Age</td>
             <td>Gender</td>
         </thead>
-        @foreach (Models.Person pers in Model.People)
+        @foreach (Models.PersonViewModel pers in Model.People)
         {
             <tr>
                 <td>@pers.Name</td>
@@ -30,7 +30,7 @@
 </div>
 
 <div class="container center border-light " style="border-color: white; border-width: 2px;">
-    @foreach (Models.Person pers in Model.People)
+    @foreach (Models.PersonViewModel pers in Model.People)
     {
         <div class="card text-light text-center container-fluid" style="width:400px; margin:0.5em; background-color:var(--bg); ">
             <div>

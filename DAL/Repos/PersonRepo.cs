@@ -1,16 +1,18 @@
 ﻿using Azure.Core;
 using Microsoft.Data.SqlClient;
 using Microsoft.Identity.Client;
-using S2IndividualProjectDnDPrototype.Models;
+using DAL.Models;
+using DAL.Repos;
+
 
 namespace S2IndividualProjectDnDPrototype.Helpers
 {
 
     public class PersonRepo
     {
-        public Person GetPerson(String userID)
+        public PersonDTO GetPerson(String userID)
         {
-            Person person = new Person();
+            PersonDTO person = new PersonDTO();
             
             string connectionString = ("Server=mssqlstud.fhict.local;" +
                                 "Database=dbi439179_test;" +
@@ -56,9 +58,9 @@ namespace S2IndividualProjectDnDPrototype.Helpers
             return person;
         }
 
-        public List<Person> GetPeople()
+        public List<PersonDTO> GetPeople()
         {
-            List<Person> People = new List<Person>();
+            List<PersonDTO> People = new List<PersonDTO>();
 
 
             string connectionString = ("Server=mssqlstud.fhict.local;" +
@@ -77,7 +79,7 @@ namespace S2IndividualProjectDnDPrototype.Helpers
                     {
                         while (reader.Read())
                         {
-                            Person person = new Person();
+                            PersonDTO person = new PersonDTO();
 
                             person.Id = Convert.ToInt32(reader["ID"]);
                             person.Name = reader["Name"].ToString();

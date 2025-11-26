@@ -1,11 +1,13 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using DAL.Models;
+using DAL.Repos;
 
 namespace S2IndividualProjectDnDPrototype.Models
 {
     public class CharacterViewModel
     {
         public int Id { get; set; }
-        public User user { get; set; }
+        public UserViewModel user { get; set; }
         
         public int UserId { get; set; }
 

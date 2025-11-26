@@ -7,7 +7,7 @@ namespace S2IndividualProjectDnDPrototype.Pages
     public class LoginPageModel : PageModel
     {
         [BindProperty]
-        public User User { get; set; }
+        public UserViewModel User { get; set; }
 
         public void OnGet()
         {

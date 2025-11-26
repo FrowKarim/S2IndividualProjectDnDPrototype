@@ -8,9 +8,9 @@ namespace S2IndividualProjectDnDPrototype.Helpers
 
     public class PersonDataConnector
     {
-        public Person GetPerson(String userID)
+        public PersonViewModel GetPerson(String userID)
         {
-            Person person = new Person();
+            PersonViewModel person = new PersonViewModel();
             
             string connectionString = ("Server=mssqlstud.fhict.local;" +
                                 "Database=dbi439179_test;" +
@@ -56,9 +56,9 @@ namespace S2IndividualProjectDnDPrototype.Helpers
             return person;
         }
 
-        public List<Person> GetPeople()
+        public List<PersonViewModel> GetPeople()
         {
-            List<Person> People = new List<Person>();
+            List<PersonViewModel> People = new List<PersonViewModel>();
 
 
             string connectionString = ("Server=mssqlstud.fhict.local;" +
@@ -77,7 +77,7 @@ namespace S2IndividualProjectDnDPrototype.Helpers
                     {
                         while (reader.Read())
                         {
-                            Person person = new Person();
+                            PersonViewModel person = new PersonViewModel();
 
                             person.Id = Convert.ToInt32(reader["ID"]);
                             person.Name = reader["Name"].ToString();

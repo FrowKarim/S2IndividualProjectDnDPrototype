@@ -16,7 +16,7 @@ namespace S2IndividualProjectDnDPrototype.Pages.PersonPages
             
             PersonDataConnector conn = new PersonDataConnector();
             string userId = Request.Query["userID"].ToString();
-            Person SinglePerson = conn.GetPerson(userId);
+            PersonViewModel SinglePerson = conn.GetPerson(userId);
             //People = conn.GetPeople();
         }
 
@@ -64,11 +64,11 @@ namespace S2IndividualProjectDnDPrototype.Pages.PersonPages
         //    return person;
         //}
 
-        public Person getSinglePerson()
+        public PersonViewModel getSinglePerson()
         {
             PersonDataConnector conn = new PersonDataConnector();
             string userId = Request.Query["userID"].ToString();
-            Person SinglePerson = conn.GetPerson(userId);
+            PersonViewModel SinglePerson = conn.GetPerson(userId);
             return SinglePerson;
         }
 

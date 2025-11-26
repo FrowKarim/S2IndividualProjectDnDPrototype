@@ -1,6 +1,9 @@
-﻿namespace S2IndividualProjectDnDPrototype.Models
+﻿using DAL.Models;
+using DAL.Repos;
+
+namespace S2IndividualProjectDnDPrototype.Models
 {
-    public class Person
+    public class PersonViewModel
     {
 
         public int Id { get; set; }
@@ -12,7 +15,7 @@
 
         public string Gender { get; set; }
 
-        public Person()
+        public PersonViewModel()
         { 
         
         }
