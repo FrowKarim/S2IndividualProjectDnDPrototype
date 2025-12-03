@@ -45,14 +45,6 @@ namespace S2IndividualProjectDnDPrototype.Helpers
 
 
 
-            //    using (MySqlConnection connection = new MySqlConnection(connectionString))
-            //    {
-            //        connection.Open();
-            //        using (MySqlCommand command = new MySqlCommand("SELECT * FROM student WHERE name = @name", connection))
-            //        {
-            //            command.Parameters.AddWithValue("@name", Request.Query["name"].ToString());
-
-
             return person;
         }
 
