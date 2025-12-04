@@ -3,6 +3,7 @@ using Microsoft.Data.SqlClient;
 using Microsoft.Identity.Client;
 using DAL.Repos;
 using LogicLayer.DTO;
+using LogicLayer.Entities;
 
 namespace S2IndividualProjectDnDPrototype.Helpers
 {
@@ -45,21 +46,12 @@ namespace S2IndividualProjectDnDPrototype.Helpers
             }
 
 
-
-            //    using (MySqlConnection connection = new MySqlConnection(connectionString))
-            //    {
-            //        connection.Open();
-            //        using (MySqlCommand command = new MySqlCommand("SELECT * FROM student WHERE name = @name", connection))
-            //        {
-            //            command.Parameters.AddWithValue("@name", Request.Query["name"].ToString());
-
-
             return person;
         }
 
-        public List<PersonDTO> GetPeople()
+        public List<Person> GetPeople()
         {
-            List<PersonDTO> People = new List<PersonDTO>();
+            List<Person> People = new List<Person>();
 
 
             string connectionString = ("Server=mssqlstud.fhict.local;" +
@@ -78,7 +70,7 @@ namespace S2IndividualProjectDnDPrototype.Helpers
                     {
                         while (reader.Read())
                         {
-                            PersonDTO person = new PersonDTO();
+                            Person person = new Person();
 
                             person.Id = Convert.ToInt32(reader["ID"]);
                             person.Name = reader["Name"].ToString();

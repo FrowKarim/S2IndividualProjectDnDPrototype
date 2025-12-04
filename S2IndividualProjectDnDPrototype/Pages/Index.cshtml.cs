@@ -3,13 +3,15 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.SqlClient;
 using S2IndividualProjectDnDPrototype.Models;
 using S2IndividualProjectDnDPrototype.Helpers;
+using DAL.Repos;
+using LogicLayer.Entities;
 
 namespace S2IndividualProjectDnDPrototype.Pages
 {
     public class IndexModel : PageModel
     {
 
-        public List<PersonViewModel> People = new List<PersonViewModel>();
+        public List<Person> People = new List<Person>();
 
 
 
@@ -26,7 +28,7 @@ namespace S2IndividualProjectDnDPrototype.Pages
 
         public void OnGet()
         {
-            PersonDataConnector conn = new PersonDataConnector();
+            PersonRepo conn = new PersonRepo();
 
             People = conn.GetPeople();
 
