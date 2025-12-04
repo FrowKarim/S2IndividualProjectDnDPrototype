@@ -2,7 +2,7 @@
 @model S2IndividualProjectDnDPrototype.Pages.CharacterPageModel
 @{
 
-    Models.CharacterViewModel character = Model.getSingleCharacter();
+    LogicLayer.Entities.Character character = Model.getSingleCharacter();
     <div class="card text-light text-center container-fluid" style="width:75% margin:0.5em; background-color:var(--bg); ">
         <div>
 

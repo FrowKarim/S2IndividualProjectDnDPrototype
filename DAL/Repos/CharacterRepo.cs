@@ -1,14 +1,14 @@
 ﻿using Microsoft.Data.SqlClient;
 using LogicLayer.DTO;
-
+using LogicLayer.Entities;
 namespace DAL.Repos;
 
 
-public class CharacterDataConnector
+public class CharacterRepo
 {
-    public CharacterDTO GetCharacter(String CharacterId)
+    public Character GetCharacter(String CharacterId)
     {
-        CharacterDTO Character = new CharacterDTO();
+        Character Character = new Character();
 
         string connectionString = ("Server=mssqlstud.fhict.local;" +
                             "Database=dbi439179_test;" +

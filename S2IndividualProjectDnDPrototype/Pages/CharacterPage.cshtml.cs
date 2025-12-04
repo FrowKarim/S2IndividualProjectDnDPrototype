@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using S2IndividualProjectDnDPrototype.Helpers;
 using S2IndividualProjectDnDPrototype.Models;
+using DAL.Repos;
+using LogicLayer.Entities;
 
 namespace S2IndividualProjectDnDPrototype.Pages
 {
@@ -9,17 +11,17 @@ namespace S2IndividualProjectDnDPrototype.Pages
     {
         public void OnGet()
         {
-            CharacterDataConnector conn = new CharacterDataConnector();
+            CharacterRepo conn = new CharacterRepo();
             string CharacterId = Request.Query["CharacterId"].ToString();
-            CharacterViewModel SingleCharacter = conn.GetCharacter(CharacterId);
+            Character SingleCharacter = conn.GetCharacter(CharacterId);
 
         }
 
-        public CharacterViewModel getSingleCharacter()
+        public Character getSingleCharacter()
         {
-            CharacterDataConnector conn = new CharacterDataConnector();
+            CharacterRepo conn = new CharacterRepo();
             string CharacterId = Request.Query["CharacterId"].ToString();
-            CharacterViewModel SingleCharacter = conn.GetCharacter(CharacterId);
+            Character SingleCharacter = conn.GetCharacter(CharacterId);
             return SingleCharacter;
         }
 

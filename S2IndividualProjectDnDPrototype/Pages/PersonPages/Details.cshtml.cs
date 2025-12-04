@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.SqlClient;
 using S2IndividualProjectDnDPrototype.Helpers;
 using S2IndividualProjectDnDPrototype.Models;
+using LogicLayer.Entities;
+using DAL.Repos;
 
 namespace S2IndividualProjectDnDPrototype.Pages.PersonPages
 {
@@ -13,19 +15,19 @@ namespace S2IndividualProjectDnDPrototype.Pages.PersonPages
         public void OnGet()
         {
             
-            PersonDataConnector conn = new PersonDataConnector();
+            PersonRepo conn = new PersonRepo();
             string userId = Request.Query["userID"].ToString();
-            PersonViewModel SinglePerson = conn.GetPerson(userId);
+            Person SinglePerson = conn.GetPerson(userId);
            
         }
 
         
         
-        public PersonViewModel getSinglePerson()
+        public Person getSinglePerson()
         {
-            PersonDataConnector conn = new PersonDataConnector();
+            PersonRepo conn = new PersonRepo();
             string userId = Request.Query["userID"].ToString();
-            PersonViewModel SinglePerson = conn.GetPerson(userId);
+            Person SinglePerson = conn.GetPerson(userId);
             return SinglePerson;
         }
 

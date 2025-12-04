@@ -10,9 +10,9 @@ namespace S2IndividualProjectDnDPrototype.Helpers
 
     public class PersonRepo
     {
-        public PersonDTO GetPerson(String PersonID)
+        public Person GetPerson(String PersonID)
         {
-            PersonDTO person = new PersonDTO();
+            Person person = new Person();
             
             string connectionString = ("Server=mssqlstud.fhict.local;" +
                                 "Database=dbi439179_test;" +

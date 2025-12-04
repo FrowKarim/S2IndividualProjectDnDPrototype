@@ -13,7 +13,7 @@
     <td>Age</td>
     <td>Gender</td>
     </thead>
-    @foreach (Models.PersonViewModel pers in Model.People)
+    @foreach (LogicLayer.Entities.Person pers in Model.People)
     {
         <tr>
             <td>@pers.Name</td>
