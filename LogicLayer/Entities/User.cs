@@ -1,12 +1,18 @@
-﻿namespace DAL.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LogicLayer.Entities
 {
-    public class UserDTO
+    public class User
     {
 
-        public UserDTO() 
-        { 
-        // Constructor for the class
-        
+        public User()
+        {
+            // Constructor for the class
+
         }
 
         public int Id { get; set; } //Properties of user

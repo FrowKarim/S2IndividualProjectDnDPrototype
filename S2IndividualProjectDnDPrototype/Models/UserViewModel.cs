@@ -1,4 +1,4 @@
-﻿using DAL.Models;
+﻿using LogicLayer.DTO;
 using DAL.Repos;
 
 namespace S2IndividualProjectDnDPrototype.Models

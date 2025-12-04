@@ -1,11 +1,18 @@
-﻿using System.Diagnostics.CodeAnalysis;
-namespace DAL.Models
+﻿using LogicLayer.DTO;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LogicLayer.Entities
 {
-    public class CharacterDTO
+    public class Character
     {
         public int Id { get; set; }
         public UserDTO user { get; set; }
-        
+
         public int UserId { get; set; }
 
         public int CampaignId { get; set; }
@@ -64,7 +71,7 @@ namespace DAL.Models
         [AllowNull]
         public string Notes { get; set; }
 
-        public CharacterDTO()
+        public Character()
         {
 
         }

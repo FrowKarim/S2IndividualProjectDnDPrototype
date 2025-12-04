@@ -1,7 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
-using DAL.Models;
-namespace DAL.Repos;
+using LogicLayer.DTO;
 
+namespace DAL.Repos;
 
 
 public class CharacterDataConnector

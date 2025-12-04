@@ -1,16 +1,15 @@
 ﻿using Azure.Core;
 using Microsoft.Data.SqlClient;
 using Microsoft.Identity.Client;
-using DAL.Models;
 using DAL.Repos;
-
+using LogicLayer.DTO;
 
 namespace S2IndividualProjectDnDPrototype.Helpers
 {
 
     public class PersonRepo
     {
-        public PersonDTO GetPerson(String userID)
+        public PersonDTO GetPerson(String PersonID)
         {
             PersonDTO person = new PersonDTO();
             
@@ -25,7 +24,7 @@ namespace S2IndividualProjectDnDPrototype.Helpers
                 connection.Open();
                 using (SqlCommand sqlcommand = new SqlCommand("SELECT * FROM Person WHERE ID= @Id ", connection))
                 {
-                    sqlcommand.Parameters.AddWithValue("@Id", userID);
+                    sqlcommand.Parameters.AddWithValue("@Id", PersonID);
                     using (SqlDataReader reader = sqlcommand.ExecuteReader())
                     {
                         while (reader.Read())
