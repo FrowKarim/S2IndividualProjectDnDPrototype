@@ -4,11 +4,12 @@ using Microsoft.Identity.Client;
 using DAL.Repos;
 using LogicLayer.DTO;
 using LogicLayer.Entities;
+using LogicLayer.Interfaces;
 
 namespace S2IndividualProjectDnDPrototype.Helpers
 {
 
-    public class PersonRepo
+    public class PersonRepo : IPersonRepo
     {
         public Person GetPerson(String PersonID)
         {
@@ -88,6 +89,22 @@ namespace S2IndividualProjectDnDPrototype.Helpers
 
             return People;
 
+        }
+
+
+        public void AddPerson(Person Person)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UpdatePerson(Person Person)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DeletePerson(Person Person)
+        {
+            throw new NotImplementedException();
         }
     }
 }

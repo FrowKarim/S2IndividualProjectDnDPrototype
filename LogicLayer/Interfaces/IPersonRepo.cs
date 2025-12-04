@@ -10,7 +10,7 @@ namespace LogicLayer.Interfaces
 {
     public interface IPersonRepo
     {
-        Person[] GetPeople();
+        List<Person> GetPeople();
         Person GetPerson(string PersonID);
         void AddPerson(Person Person);
         void UpdatePerson(Person Person);
