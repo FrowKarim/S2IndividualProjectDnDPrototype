@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LogicLayer.Models
+namespace LogicLayer.DTO
 {
-    internal class UserDTO
+    internal class CharacterDTO
     {
+
+
     }
 }

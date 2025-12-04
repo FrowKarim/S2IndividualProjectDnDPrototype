@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LogicLayer
+namespace LogicLayer.DTO
 {
-    internal class Services
+    internal class PersonDTO
     {
     }
 }
