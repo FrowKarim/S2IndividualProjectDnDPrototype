@@ -1,13 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using S2IndividualProjectDnDPrototype.Models;
+using LogicLayer.Entities;
+using DAL;
 
 namespace S2IndividualProjectDnDPrototype.Pages
 {
     public class LoginPageModel : PageModel
     {
         [BindProperty]
-        public UserViewModel User { get; set; }
+        public User User { get; set; }
 
         public void OnGet()
         {
