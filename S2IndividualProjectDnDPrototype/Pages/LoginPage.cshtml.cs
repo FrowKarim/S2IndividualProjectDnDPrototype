@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Http;
 using LogicLayer.Entities;
 using DAL;
 
@@ -10,23 +11,27 @@ namespace S2IndividualProjectDnDPrototype.Pages
         [BindProperty]
         public User User { get; set; }
 
+        public const string AdminSessionKey = "IsDungeonMaster";
+
         public void OnGet()
         {
+            
         }
 
-        public ActionResult OnPost()
+        public IActionResult OnPost()
         {
-            if (User.Name == "Hi" && User.Password == "Bye")
+            if (User?.Name == "Hi" && User?.Password == "Bye")
             {
-                return new RedirectToPageResult("DMorPlayerPage");
+                // Store a simple flag in session to indicate DM/admin
+                HttpContext.Session.SetString(AdminSessionKey, "true");
+
+                return RedirectToPage("DMorPlayerPage");
             }
-            else
-            {
+            else 
+            { 
                 ViewData["Message"] = "Credentials incorrect";
-                return Page();
+            return Page();
             }
-
         }
-
     }
 }
