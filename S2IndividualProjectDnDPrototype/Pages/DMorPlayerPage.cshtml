@@ -6,11 +6,15 @@
 <p>Are you a Dungeon Master or a Player</p>
 
 <form method="post">
-    <input type=radio name="IsDungeonMaster"> 
-    <label>Dungeon Master</label> <br>
-    <input type=radio name="IsDungeonMaster"> 
-    <label>Player</label>   <br>
-    <input type="submit" value="submit" />
+    <div>
+        <input type="radio" asp-for="User.IsDungeonMaster" value="true" id="dm" />
+        <label for="dm">Dungeon Master</label>
+    </div>
+    <div>
+        <input type="radio" asp-for="User.IsDungeonMaster" value="false" id="player" />
+        <label for="player">Player</label>
+    </div>
+    <button type="submit">Submit</button>
 </form>
 
 <br />

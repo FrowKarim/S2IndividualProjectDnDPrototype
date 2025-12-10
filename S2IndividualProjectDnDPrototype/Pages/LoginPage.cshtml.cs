@@ -13,9 +13,19 @@ namespace S2IndividualProjectDnDPrototype.Pages
 
         public const string AdminSessionKey = "IsDungeonMaster";
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
-            
+            var role = HttpContext.Session.GetString(AdminSessionKey);
+            if (role == "DungeonMaster")
+            {
+                return RedirectToPage("/Index");
+            }
+            else if (role == "Player")
+            {
+                return RedirectToPage("/PersonPage");
+            }
+
+            return Page();
         }
 
         public IActionResult OnPost()
