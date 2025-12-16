@@ -3,7 +3,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-
+builder.Services.AddScoped<LogicLayer.Interfaces.ICharacterRepo, DAL.Repos.CharacterRepo>();
 builder.Services.AddDistributedMemoryCache();
 
 builder.Services.AddSession(options =>

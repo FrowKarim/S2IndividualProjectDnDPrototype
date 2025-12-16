@@ -5,6 +5,8 @@ using DAL;
 using Microsoft.AspNetCore.Http;
 using static S2IndividualProjectDnDPrototype.Pages.LoginPageModel;
 using LogicLayer.Services;
+using LogicLayer.Interfaces;
+using DAL.Repos;
 
 
 namespace S2IndividualProjectDnDPrototype.Pages
@@ -13,6 +15,7 @@ namespace S2IndividualProjectDnDPrototype.Pages
     {
         [BindProperty]
         public Character Character { get; set; }
+        private CharacterService CharacterService { get; set; }
         public IActionResult OnGet()
         {
             var role = HttpContext.Session.GetString(AdminSessionKey);
@@ -34,11 +37,10 @@ namespace S2IndividualProjectDnDPrototype.Pages
             {
                 return Page();
             }
-            // Here you would typically save the character to the database
-            // For example:
-            // CharacterRepository.AddCharacter(Character);
+            CharacterService characterService = new CharacterService(new CharacterRepo());
+            characterService.CreateCharacter(Character);
             
-            return RedirectToPage("/CharacterCreatedConfirmation");
+            return RedirectToPage("/Index");
         }
 
     }

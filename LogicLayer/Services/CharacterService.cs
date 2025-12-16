@@ -11,6 +11,10 @@ namespace LogicLayer.Services
     public class CharacterService 
     {
         private ICharacterRepo _CharacterRepo;
+        public CharacterService(ICharacterRepo _ICharacterRepo)
+        {
+            _CharacterRepo = _ICharacterRepo;
+        }
         public Character GetCharacter(string CharacterID)
         {
 

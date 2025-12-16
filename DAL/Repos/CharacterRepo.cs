@@ -1,10 +1,12 @@
 ﻿using Microsoft.Data.SqlClient;
 using LogicLayer.DTO;
 using LogicLayer.Entities;
+using LogicLayer.Interfaces;
+
 namespace DAL.Repos;
 
 
-public class CharacterRepo
+public class CharacterRepo : ICharacterRepo
 {
     public Character GetCharacter(String CharacterId)
     {
@@ -99,5 +101,21 @@ public class CharacterRepo
             }
             return character;
         }
+    }
+
+    public List<Character> GetAllCharacters()
+    {
+        throw new NotImplementedException();
+    }
+
+
+    public void UpdateCharacter(Character Character)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void DeleteCharacter(Character Character)
+    {
+        throw new NotImplementedException();
     }
 }

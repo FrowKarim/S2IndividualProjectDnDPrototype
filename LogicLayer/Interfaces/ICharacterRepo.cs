@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace LogicLayer.Interfaces
 {
-    internal interface ICharacterRepo
+    public interface ICharacterRepo
     {
         List<Character> GetAllCharacters();
         Character GetCharacter(string CharacterID);
-        void AddCharacter(Character character);
+        Character AddCharacter(Character character);
         void UpdateCharacter(Character Character);
         void DeleteCharacter(Character Character);
     }
