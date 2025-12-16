@@ -11,13 +11,13 @@ namespace LogicLayer.Entities
     public class Character
     {
         public int Id { get; set; }
-        public UserDTO user { get; set; }
+        public User user { get; set; }
 
         public int UserId { get; set; }
 
         public int CampaignId { get; set; }
 
-        [AllowNull]
+        
         public string Name { get; set; }
 
 

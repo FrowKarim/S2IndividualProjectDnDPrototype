@@ -1,0 +1,18 @@
+﻿@page
+@model S2IndividualProjectDnDPrototype.Pages.CreateCharacterModel
+@{
+}
+
+
+<form method ="post">
+    <input asp-for="Character.Name" placeholder="Character Name" />
+    <input asp-for="Character.maxHealth" placeholder="Max HP" />
+    <input asp-for="Character.maxStrength" placeholder="Max Strength" />
+    <input asp-for="Character.maxDexterity" placeholder="Max Dexterity" />
+    <input asp-for="Character.maxWill" placeholder="Max Will" />
+    <input asp-for="Character.maxSpirit" placeholder="Max Spirit" />
+    <input asp-for="Character.Armor" placeholder="Armor" />
+
+    <input button type="submit" value="Create Character" />
+
+</form>

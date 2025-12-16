@@ -65,4 +65,39 @@ public class CharacterRepo
 
         return Character;
     }
+
+
+    public Character AddCharacter(Character character)
+    {
+        
+        string connectionString = ("Server=mssqlstud.fhict.local;" +
+                            "Database=dbi439179_test;" +
+                            "User Id=dbi439179_test;" +
+                            "Password=MSSQL; " +
+                            "TrustServerCertificate = true");
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            using (SqlCommand sqlcommand = new SqlCommand(
+                "INSERT INTO CharacterSheet (CharacterName, MaxHP, MaxStrength, MaxDex, MaxWill, MaxSpirit, Armor, CurrentHP, CurrentStrength, CurrentDex, CurrentWill, CurrentSpirit) " +
+                "VALUES (@CharacterName, @MaxHP, @MaxStrength, @MaxDex, @MaxWill, @MaxSpirit, @Armor, @MaxHP, @MaxStrength, @MaxDex, @MaxWill, @MaxSpirit)",
+                connection))
+            {
+                sqlcommand.Parameters.AddWithValue("@CharacterName", character.Name);
+                sqlcommand.Parameters.AddWithValue("@MaxHP", character.maxHealth);
+                sqlcommand.Parameters.AddWithValue("@MaxStrength", character.maxStrength);
+                sqlcommand.Parameters.AddWithValue("@MaxDex", character.maxDexterity);
+                sqlcommand.Parameters.AddWithValue("@MaxWill", character.maxWill);
+                sqlcommand.Parameters.AddWithValue("@MaxSpirit", character.maxSpirit);
+                sqlcommand.Parameters.AddWithValue("@Armor", character.Armor);
+                sqlcommand.Parameters.AddWithValue("@CurrentHP", character.maxHealth);
+                sqlcommand.Parameters.AddWithValue("@CurrentStrength", character.maxStrength);
+                sqlcommand.Parameters.AddWithValue("@CurrentDex", character.maxDexterity);
+                sqlcommand.Parameters.AddWithValue("@CurrentWill", character.maxWill);
+                sqlcommand.Parameters.AddWithValue("@CurrentSpirit", character.maxSpirit);
+                sqlcommand.ExecuteNonQuery();
+            }
+            return character;
+        }
+    }
 }
