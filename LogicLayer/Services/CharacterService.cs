@@ -26,9 +26,9 @@ namespace LogicLayer.Services
 
              _CharacterRepo.AddCharacter(character);
         }
-        public void DeleteCharacter(String CharacterID)
+        public Character DeleteCharacter(Character character)
         {
-            
+            return _CharacterRepo.DeleteCharacter(character);
         }
     }
 }

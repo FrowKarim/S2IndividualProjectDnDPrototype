@@ -114,8 +114,26 @@ public class CharacterRepo : ICharacterRepo
         throw new NotImplementedException();
     }
 
-    public void DeleteCharacter(Character Character)
+    public Character DeleteCharacter(Character character)
     {
-        throw new NotImplementedException();
+        string connectionString = ("Server=mssqlstud.fhict.local;" +
+                            "Database=dbi439179_test;" +
+                            "User Id=dbi439179_test;" +
+                            "Password=MSSQL; " +
+                            "TrustServerCertificate = true");
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            using (SqlCommand sqlcommand = new SqlCommand(
+                "DELETE FROM Characters WHERE Id = @ID; ",
+                connection))
+            {
+                sqlcommand.Parameters.AddWithValue("@ID", character.Id);
+                sqlcommand.ExecuteNonQuery();
+            }
+            return character;
+        }
+       
     }
 }
+

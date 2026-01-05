@@ -13,6 +13,6 @@ namespace LogicLayer.Interfaces
         Character GetCharacter(string CharacterID);
         Character AddCharacter(Character character);
         void UpdateCharacter(Character Character);
-        void DeleteCharacter(Character Character);
+        Character DeleteCharacter(Character Character);
     }
 }

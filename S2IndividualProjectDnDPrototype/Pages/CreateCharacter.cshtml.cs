@@ -33,10 +33,11 @@ namespace S2IndividualProjectDnDPrototype.Pages
 
         public IActionResult OnPost()
         {
-            if (!ModelState.IsValid)
-            {
-                return Page();
-            }
+            //if (!ModelState.IsValid)
+            //{
+            //    return Page();
+            //}
+
             CharacterService characterService = new CharacterService(new CharacterRepo());
             characterService.CreateCharacter(Character);
             
