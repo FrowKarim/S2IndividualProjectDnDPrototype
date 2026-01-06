@@ -24,9 +24,9 @@ namespace S2IndividualProjectDnDPrototype.Pages.CampaignPages
             var role = HttpContext.Session.GetString(AdminSessionKey);
             if (role == "DungeonMaster")
             {
-                CampaignRepo conn = new CampaignRepo();
-                string CampaignId = Request.Query["CampaignID"].ToString();
-                Campaign getSingleCampaign = conn.GetCampaign(Convert.ToInt32(CampaignId));
+                CampaignService cs = new CampaignService(new CampaignRepo());
+                string CampaignId = Request.Query["campaignID"].ToString();
+                Campaign getSingleCampaign = cs.GetCampaign(Convert.ToInt32(CampaignId));
 
                 return Page();
 
@@ -41,9 +41,10 @@ namespace S2IndividualProjectDnDPrototype.Pages.CampaignPages
         }
 
         public IActionResult OnPostDeleteCampaign()
-        {
+         {
             CampaignService cs = new CampaignService(new CampaignRepo());
-            Campaign campaignToDelete = cs.GetCampaign(CampaignID);
+            string CampaignId = Request.Query["campaignID"].ToString();
+            Campaign campaignToDelete = cs.GetCampaign(Convert.ToInt32(CampaignId));
             cs.DeleteCampaign(campaignToDelete);
             return RedirectToPage("/CampaignPages/CampaignList");
         }
@@ -51,9 +52,9 @@ namespace S2IndividualProjectDnDPrototype.Pages.CampaignPages
 
         public Campaign getSingleCampaign()
         {
-            CampaignRepo conn = new CampaignRepo();
+            CampaignService cs = new CampaignService(new CampaignRepo());
             string CampaignId = Request.Query["CampaignID"].ToString();
-            Campaign SingleCampaign = conn.GetCampaign(Convert.ToInt32(CampaignId));
+            Campaign SingleCampaign = cs.GetCampaign(Convert.ToInt32(CampaignId));
             return SingleCampaign;
         }
     }

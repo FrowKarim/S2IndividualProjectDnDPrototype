@@ -9,14 +9,19 @@ namespace S2IndividualProjectDnDPrototype.Pages.CampaignPages
     public class CampaignDetailsModel : PageModel
     {
         public Campaign Campaign { get; set; }
+        public List<Character> CampaignCharacters { get; set; } = new List<Character>();
         private CampaignService CampaignService { get; set; }
 
         [BindProperty]
         public int CampaignID { get; set; }
 
+         
+
         public void OnGet()
         {
             CampaignID = Convert.ToInt32(Request.Query["campaignID"]);
+            Campaign = getSingleCampaign();
+            CampaignCharacters = GetCharactersByCampaign(CampaignID);
         }
 
         public Campaign getSingleCampaign()
@@ -25,6 +30,13 @@ namespace S2IndividualProjectDnDPrototype.Pages.CampaignPages
             Campaign SingleCampaign = cs.GetCampaign(CampaignID);
 
             return SingleCampaign;
+        }
+
+        public List<Character> GetCharactersByCampaign(int campaignID)
+        {
+            //CampaignService cs = new CampaignService(new CampaignRepo()); I NEED TO DO THIS INSTEAD
+            CharacterRepo characterRepo = new CharacterRepo();
+            return characterRepo.GetCharactersByCampaign(campaignID);
         }
     }
 }

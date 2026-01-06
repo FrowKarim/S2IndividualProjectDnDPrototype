@@ -1,74 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\",
+  "WorkspaceRootPath": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\characterpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\characterpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\campaignpages\\campaigndetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\campaignpages\\campaigndetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\campaignpages\\campaigndetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\campaignpages\\campaigndetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\campaignpages\\deletecampaignpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\campaignpages\\deletecampaignpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\campaignpages\\deletecampaignpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09A7B839-D9B9-4771-B70A-8FE44D0D3D5C}|DAL\\DAL.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\dal\\repos\\campaignrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09A7B839-D9B9-4771-B70A-8FE44D0D3D5C}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\campaignrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\personpages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\personpages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\campaignpages\\campaignlist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\campaignpages\\campaignlist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\campaignpages\\deletecampaignpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\campaignpages\\deletecampaignpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\campaignpages\\deletecampaignpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\campaignpages\\campaignlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\deletecharacterpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\deletecharacterpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\campaignpages\\campaignlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\campaignpages\\campaignlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\logiclayer\\services\\campaignservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09A7B839-D9B9-4771-B70A-8FE44D0D3D5C}|DAL\\DAL.csproj|d:\\github repos\\s2individualprojectdndprototype\\dal\\repos\\campaignrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A7B839-D9B9-4771-B70A-8FE44D0D3D5C}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\campaignrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|d:\\github repos\\s2individualprojectdndprototype\\logiclayer\\services\\campaignservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\services\\campaignservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\logiclayer\\entities\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\entities\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\personpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\personpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09A7B839-D9B9-4771-B70A-8FE44D0D3D5C}|DAL\\DAL.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\dal\\repos\\personrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09A7B839-D9B9-4771-B70A-8FE44D0D3D5C}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\personrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\logiclayer\\interfaces\\icampaignrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|d:\\github repos\\s2individualprojectdndprototype\\logiclayer\\interfaces\\icampaignrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\interfaces\\icampaignrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|c:\\users\\brofl\\source\\repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\campaignpages\\editcampaignpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\campaignpages\\editcampaignpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,230 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CampaignDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignDetails.cshtml",
-              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignDetails.cshtml",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignDetails.cshtml",
-              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignDetails.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-06T13:18:11.458Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CampaignDetails.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignDetails.cshtml.cs",
-              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignDetails.cshtml.cs",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignDetails.cshtml.cs",
-              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignDetails.cshtml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIA7wA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T13:18:24.779Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DeleteCampaignPage.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml.cs",
-              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml.cs",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml.cs",
-              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAEwCgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:06:54.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DeleteCampaignPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml",
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-06T12:03:20.355Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CampaignList.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignList.cshtml.cs",
-              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignList.cshtml.cs",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignList.cshtml.cs",
-              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignList.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DeleteCampaignPage.cshtml.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml.cs",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml.cs",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:57:24.409Z",
+              "WhenOpened": "2026-01-06T12:06:54.92Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "CampaignService.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Services\\CampaignService.cs",
+              "RelativeDocumentMoniker": "LogicLayer\\Services\\CampaignService.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Services\\CampaignService.cs",
+              "RelativeToolTip": "LogicLayer\\Services\\CampaignService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:57:40.501Z",
+              "WhenOpened": "2026-01-06T12:45:41.427Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "CampaignRepo.cs",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\DAL\\Repos\\CampaignRepo.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\DAL\\Repos\\CampaignRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\CampaignRepo.cs",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\DAL\\Repos\\CampaignRepo.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\DAL\\Repos\\CampaignRepo.cs",
               "RelativeToolTip": "DAL\\Repos\\CampaignRepo.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAAB8AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-06T12:22:04.691Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml.cs",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml.cs",
-              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:57:50.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CharacterPage.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CharacterPage.cshtml.cs",
-              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPage.cshtml.cs",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CharacterPage.cshtml.cs",
-              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPage.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:57:45.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "CampaignList.cshtml",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignList.cshtml",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignList.cshtml",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignList.cshtml",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignList.cshtml",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignList.cshtml",
               "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignList.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-06T13:17:19.023Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Campaign.cs",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Entities\\Campaign.cs",
-              "RelativeDocumentMoniker": "LogicLayer\\Entities\\Campaign.cs",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Entities\\Campaign.cs",
-              "RelativeToolTip": "LogicLayer\\Entities\\Campaign.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DeleteCharacterPage.cshtml.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\DeleteCharacterPage.cshtml.cs",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\DeleteCharacterPage.cshtml.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\DeleteCharacterPage.cshtml.cs",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\DeleteCharacterPage.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T13:00:24.998Z",
+              "WhenOpened": "2026-01-06T20:40:14.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CampaignService.cs",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Services\\CampaignService.cs",
-              "RelativeDocumentMoniker": "LogicLayer\\Services\\CampaignService.cs",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Services\\CampaignService.cs",
-              "RelativeToolTip": "LogicLayer\\Services\\CampaignService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAhwBAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:45:41.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PersonPage.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml.cs",
-              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml.cs",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml.cs",
-              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:57:49.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PersonRepo.cs",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\DAL\\Repos\\PersonRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repos\\PersonRepo.cs",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\DAL\\Repos\\PersonRepo.cs",
-              "RelativeToolTip": "DAL\\Repos\\PersonRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:54:30.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Program.cs",
-              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Program.cs",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Program.cs",
-              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:50:25.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "ICampaignRepo.cs",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Interfaces\\ICampaignRepo.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Interfaces\\ICampaignRepo.cs",
               "RelativeDocumentMoniker": "LogicLayer\\Interfaces\\ICampaignRepo.cs",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Interfaces\\ICampaignRepo.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Interfaces\\ICampaignRepo.cs",
               "RelativeToolTip": "LogicLayer\\Interfaces\\ICampaignRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:45:05.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EditCampaignPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\EditCampaignPage.cshtml",
-              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\EditCampaignPage.cshtml",
-              "ToolTip": "C:\\Users\\brofl\\source\\repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\EditCampaignPage.cshtml",
-              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\EditCampaignPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-06T11:48:16.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T12:45:05.96Z"
             }
           ]
         }

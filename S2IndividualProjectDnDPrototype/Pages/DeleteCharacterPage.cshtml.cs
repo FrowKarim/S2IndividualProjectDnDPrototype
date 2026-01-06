@@ -15,12 +15,13 @@ namespace S2IndividualProjectDnDPrototype.Pages
         }
     
 
-        public IActionResult OnPostDeleteCharacter()
+        public IActionResult OnPost()
         {
             CharacterRepo conn = new CharacterRepo();
-            string CharacterId = Request.Query["character"].ToString();
-           // conn.DeleteCharacter(CharacterId);
-            return RedirectToPage("Index");
+            string CharacterId = Request.Query["characterID"].ToString();
+            Character SingleCharacter = conn.GetCharacter(CharacterId);
+            conn.DeleteCharacter(SingleCharacter);
+            return RedirectToPage("/Index");
         }
 
 
