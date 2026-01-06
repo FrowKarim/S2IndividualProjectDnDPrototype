@@ -1,0 +1,14 @@
+﻿@page
+@model S2IndividualProjectDnDPrototype.Pages.CampaignPages.DeleteCampaignPageModel
+@{
+    LogicLayer.Entities.Campaign camp = Model.getSingleCampaign();
+}
+
+
+<h2>Are you sure you want to delete @camp.Name</h2>
+
+<a class="btn btn-primary" href="/CampaignPages/CampaignList">Cancel</a> 
+
+<form method="post" asp-route-CampaignID="@camp.Id" asp-page-handler="DeleteCampaign" style="display:inline;">
+    <button type="submit" class="btn btn-primary">DELETE</button>
+</form>

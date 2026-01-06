@@ -6,7 +6,7 @@ using LogicLayer.DTO;
 using LogicLayer.Entities;
 using LogicLayer.Interfaces;
 
-namespace S2IndividualProjectDnDPrototype.Helpers
+namespace DAL.Repos
 {
 
     public class PersonRepo : IPersonRepo

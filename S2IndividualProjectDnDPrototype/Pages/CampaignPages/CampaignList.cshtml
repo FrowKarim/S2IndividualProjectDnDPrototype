@@ -1,0 +1,25 @@
+﻿@page
+@model S2IndividualProjectDnDPrototype.Pages.CampaignPages.CampaignListModel
+@{
+}
+
+<a asp-page="/CampaignPages/CreateCampaignPage"  class="card-link btn btn-primary"> Create a new campaign </a>
+
+<div class="container center border-light " style="border-color: white; border-width: 2px;">
+    @foreach (LogicLayer.Entities.Campaign camp in Model.Campaigns)
+    {
+        <div class="card text-light text-center container-fluid" style="width:400px; margin:0.5em; background-color:var(--bg); ">
+            <div>
+
+
+                <h4 class="card-title"> @camp.Name    </h4>
+                <p class="card-text"> @camp.Owner is the owner</p>
+                <p class="text-opacity-75 card-text"> @camp.Description </p>
+                <a asp-page="/CampaignPages/CampaignDetails" asp-route-campaignID="@camp.Id" class="card-link btn btn-primary"> Details </a>
+                <a asp-page="/CampaignPages/EditCampaignPage" asp-route-campaignID="@camp.Id" class="card-link btn btn-primary"> Edit </a>
+                <a asp-page="/CampaignPages/DeleteCampaignPage" asp-route-campaignID="@camp.Id" class="card-link btn btn-primary"> Delete </a>
+
+            </div>
+        </div>
+    }
+</div>

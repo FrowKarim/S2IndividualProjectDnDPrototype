@@ -15,7 +15,7 @@ namespace LogicLayer.Services
         {
             _CampaignRepo = _ICampaignRepo;
         }
-        public Campaign GetCampaign(string CampaignID)
+        public Campaign GetCampaign(int CampaignID)
         {
 
             return _CampaignRepo.GetCampaign(CampaignID);

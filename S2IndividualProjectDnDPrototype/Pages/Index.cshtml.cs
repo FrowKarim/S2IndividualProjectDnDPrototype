@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.SqlClient;
-using S2IndividualProjectDnDPrototype.Helpers;
 using DAL.Repos;
 using LogicLayer.Entities;
 
