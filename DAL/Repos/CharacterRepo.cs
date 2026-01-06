@@ -81,10 +81,12 @@ public class CharacterRepo : ICharacterRepo
         {
             connection.Open();
             using (SqlCommand sqlcommand = new SqlCommand(
-                "INSERT INTO CharacterSheet (CharacterName, MaxHP, MaxStrength, MaxDex, MaxWill, MaxSpirit, Armor, CurrentHP, CurrentStrength, CurrentDex, CurrentWill, CurrentSpirit) " +
-                "VALUES (@CharacterName, @MaxHP, @MaxStrength, @MaxDex, @MaxWill, @MaxSpirit, @Armor, @MaxHP, @MaxStrength, @MaxDex, @MaxWill, @MaxSpirit)",
+                "INSERT INTO CharacterSheet (UserID, CampaignID, CharacterName, MaxHP, MaxStrength, MaxDex, MaxWill, MaxSpirit, Armor, CurrentHP, CurrentStrength, CurrentDex, CurrentWill, CurrentSpirit) " +
+                "VALUES (@UserID, @CampaignID, @CharacterName, @MaxHP, @MaxStrength, @MaxDex, @MaxWill, @MaxSpirit, @Armor, @MaxHP, @MaxStrength, @MaxDex, @MaxWill, @MaxSpirit)",
                 connection))
             {
+                sqlcommand.Parameters.AddWithValue("@UserID", character.UserId);
+                sqlcommand.Parameters.AddWithValue("@CampaignID", character.CampaignId);
                 sqlcommand.Parameters.AddWithValue("@CharacterName", character.Name);
                 sqlcommand.Parameters.AddWithValue("@MaxHP", character.maxHealth);
                 sqlcommand.Parameters.AddWithValue("@MaxStrength", character.maxStrength);

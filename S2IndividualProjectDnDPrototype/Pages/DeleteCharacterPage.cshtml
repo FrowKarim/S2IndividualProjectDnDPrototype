@@ -1,0 +1,11 @@
+﻿@page
+@model S2IndividualProjectDnDPrototype.Pages.DeleteCharacterPageModel
+@{
+
+LogicLayer.Entities.Character character = Model.getSingleCharacter();
+
+<h2>Are you sure you want to delete @character.Name</h2>
+
+
+
+}

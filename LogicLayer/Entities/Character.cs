@@ -13,6 +13,7 @@ namespace LogicLayer.Entities
         public int Id { get; set; }
         public User user { get; set; }
 
+        
         public int UserId { get; set; }
 
         public int CampaignId { get; set; }
