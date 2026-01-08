@@ -43,7 +43,6 @@ namespace S2IndividualProjectDnDPrototype.Pages
             CharacterService characterService = new CharacterService(new CharacterRepo());
             //Character.CampaignId = HttpContext.Session.GetInt32(nameof(AccountCampaignID)) ?? 0;
             //Character.UserId = HttpContext.Session.GetInt32(nameof(AccountUserID)) ?? 0;
-            Character.CampaignId = 2;
             Character.UserId = 2;
             characterService.CreateCharacter(Character);
             

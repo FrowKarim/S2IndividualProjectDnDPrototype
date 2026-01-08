@@ -147,7 +147,11 @@ namespace DAL.Repos
                 {
                     connection.Open();
                     using (SqlCommand sqlcommand = new SqlCommand(
-                        "DELETE FROM Campaign WHERE CampaignID = @ID; ",
+                        "UPDATE CharacterSheet     " +
+                        " SET CampaignID = NULL     " +
+                        "  WHERE CampaignID = @ID;  " +
+                        "    DELETE FROM Campaign    " +
+                        "  WHERE CampaignID = @ID; ",
                         connection))
                     {
                         sqlcommand.Parameters.AddWithValue("@ID", Campaign.Id);
