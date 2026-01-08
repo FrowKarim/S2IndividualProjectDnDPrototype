@@ -167,9 +167,45 @@ public class CharacterRepo : ICharacterRepo
     return characters;
 }
 
-    public void UpdateCharacter(Character Character)
+    public Character UpdateCharacter(Character Character)
     {
-        throw new NotImplementedException();
+        string connectionString = ("Server=mssqlstud.fhict.local;" +
+                            "Database=dbi439179_test;" +
+                            "User Id=dbi439179_test;" +
+                            "Password=MSSQL; " +
+                            "TrustServerCertificate = true");
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            using (SqlCommand sqlcommand = new SqlCommand(
+                "UPDATE CharacterSheet SET CurrentHP = @CurrentHP, CurrentStrength = @CurrentStrength, CurrentDex = @CurrentDex, " +
+                "CurrentWill = @CurrentWill, CurrentSpirit = @CurrentSpirit, Armor = @Armor, LeftHand = @LeftHand, RightHand = @RightHand, " +
+                "Body1 = @Body1, Body2 = @Body2, Backpack1 = @Backpack1, Backpack2 = @Backpack2, Backpack3 = @Backpack3, Backpack4 = @Backpack4, " +
+                "Backpack5 = @Backpack5, Backpack6 = @Backpack6, Notes = @Notes WHERE CharacterID = @ID",
+                connection))
+            {
+                sqlcommand.Parameters.AddWithValue("@ID", Character.Id);
+                sqlcommand.Parameters.AddWithValue("@CurrentHP", Character.currentHealth);
+                sqlcommand.Parameters.AddWithValue("@CurrentStrength", Character.currentStrength);
+                sqlcommand.Parameters.AddWithValue("@CurrentDex", Character.currentDexterity);
+                sqlcommand.Parameters.AddWithValue("@CurrentWill", Character.currentWill);
+                sqlcommand.Parameters.AddWithValue("@CurrentSpirit", Character.currentSpirit);
+                sqlcommand.Parameters.AddWithValue("@Armor", Character.Armor);
+                sqlcommand.Parameters.AddWithValue("@LeftHand", Character.LeftHand ?? "");
+                sqlcommand.Parameters.AddWithValue("@RightHand", Character.RightHand ?? "");
+                sqlcommand.Parameters.AddWithValue("@Body1", Character.Body1 ?? "");
+                sqlcommand.Parameters.AddWithValue("@Body2", Character.Body2 ?? "");
+                sqlcommand.Parameters.AddWithValue("@Backpack1", Character.Backpack1 ?? "");
+                sqlcommand.Parameters.AddWithValue("@Backpack2", Character.Backpack2 ?? "");
+                sqlcommand.Parameters.AddWithValue("@Backpack3", Character.Backpack3 ?? "");
+                sqlcommand.Parameters.AddWithValue("@Backpack4", Character.Backpack4 ?? "");
+                sqlcommand.Parameters.AddWithValue("@Backpack5", Character.Backpack5 ?? "");
+                sqlcommand.Parameters.AddWithValue("@Backpack6", Character.Backpack6 ?? "");
+                sqlcommand.Parameters.AddWithValue("@Notes", Character.Notes ?? "");
+                sqlcommand.ExecuteNonQuery();
+            }
+        }
+        return Character;
     }
 
     public Character DeleteCharacter(Character character)

@@ -1,35 +1,61 @@
-using DAL.Repos;
-using LogicLayer.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using LogicLayer.Entities;
+using DAL;
+using Microsoft.AspNetCore.Http;
+using static S2IndividualProjectDnDPrototype.Pages.LoginPageModel;
+using LogicLayer.Services;
+using LogicLayer.Interfaces;
+using DAL.Repos;
 
 namespace S2IndividualProjectDnDPrototype.Pages.CharacterPages
 {
     public class DeleteCharacterPageModel : PageModel
     {
-        public void OnGet()
-        {
-            CharacterRepo conn = new CharacterRepo();
-            string CharacterId = Request.Query["CharacterId"].ToString();
-            Character SingleCharacter = conn.GetCharacter(CharacterId);
-        }
-    
+        [BindProperty]
+        public Character Character { get; set; }
+        private CharacterService CharacterService { get; set; }
 
-        public IActionResult OnPost()
+        [BindProperty]
+        public int CharacterID { get; set; }
+
+        public IActionResult OnGet()
         {
-            CharacterRepo conn = new CharacterRepo();
+            var role = HttpContext.Session.GetString(AdminSessionKey);
+            if (role == "DungeonMaster")
+            {
+                CharacterService cs = new CharacterService(new CharacterRepo());
+                string CharacterId = Request.Query["characterID"].ToString();
+                Character getSingleCharacter = cs.GetCharacter(CharacterId);
+
+                return Page();
+
+            }
+            else if (role == "Player")
+            {
+                return RedirectToPage("/Index");
+            }
+            else
+                return RedirectToPage("/LoginPage");
+
+        }
+
+        public IActionResult OnPostDeleteCharacter()
+        {
+            CharacterService cs = new CharacterService(new CharacterRepo());
             string CharacterId = Request.Query["characterID"].ToString();
-            Character SingleCharacter = conn.GetCharacter(CharacterId);
-            conn.DeleteCharacter(SingleCharacter);
-            return RedirectToPage("/Index");
+            Character characterToDelete = cs.GetCharacter(CharacterId);
+            cs.DeleteCharacter(characterToDelete);
+            return RedirectToPage("/CampaignPages/CampaignList");
         }
 
 
         public Character getSingleCharacter()
         {
-            CharacterRepo conn = new CharacterRepo();
-            string CharacterId = Request.Query["character"].ToString();
-            Character SingleCharacter = conn.GetCharacter(CharacterId);
+            CharacterService cs = new CharacterService(new CharacterRepo());
+            string CharacterId = Request.Query["characterID"].ToString();
+            Character SingleCharacter = cs.GetCharacter(CharacterId);
             return SingleCharacter;
         }
-    } }
+    }
+}

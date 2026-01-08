@@ -8,7 +8,7 @@ LogicLayer.Entities.Character character = Model.getSingleCharacter();
 
     <a class="btn btn-primary" href="/CampaignPages/CampaignList">Cancel</a>
 
-    <form method="post" asp-route-CharacterID="@character.Id" asp-page-handler="Delete Character" style="display:inline;">
+    <form method="post" asp-route-characterID="@character.Id" asp-page-handler="DeleteCharacter" style="display:inline;">
         <button type="submit" class="btn btn-primary">DELETE</button>
     </form>
 

@@ -27,8 +27,7 @@
                 <h4 class="card-title"> @CampChars.Name    </h4>
                 <p class="card-text"> @CampChars.Name has @CampChars.maxHealth health </p>
                 <p class="text-opacity-75 card-text">@CampChars.Name has CharID @CampChars.Id </p>
-                <a asp-page="./CharacterPages/CharacterDetails" asp-route-userID="@CampChars.Id" class="card-link btn btn-primary"> Char Details</a>
-                <a asp-page="/Characterpage" asp-route-CharacterId="@CampChars.Id" class="card-link btn btn-primary"> Link to Character Sheet </a>
+                <a asp-page="/CharacterPages/CharacterPage" asp-route-CharacterId="@CampChars.Id" class="card-link btn btn-primary"> Link to Character Sheet </a>
 
             </div>
         </div>

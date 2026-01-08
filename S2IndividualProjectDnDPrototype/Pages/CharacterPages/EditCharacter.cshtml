@@ -1,0 +1,103 @@
+﻿@page "{characterID}"
+@model S2IndividualProjectDnDPrototype.Pages.CharacterPages.EditCharacterModel
+
+<h2>Edit @Model.Character.Name</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Character.Id" />
+    <input type="hidden" asp-for="Character.UserId" />
+    <input type="hidden" asp-for="Character.CampaignId" />
+    <input type="hidden" asp-for="Character.Name" />
+    <input type="hidden" asp-for="Character.maxHealth" />
+    <input type="hidden" asp-for="Character.maxStrength" />
+    <input type="hidden" asp-for="Character.maxDexterity" />
+    <input type="hidden" asp-for="Character.maxWill" />
+    <input type="hidden" asp-for="Character.maxSpirit" />
+
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Current Stats</h4>
+            <div class="mb-3">
+                <label asp-for="Character.currentHealth">Current Health (Max: @Model.Character.maxHealth)</label>
+                <input type="number" asp-for="Character.currentHealth" class="form-control" min="0" max="@Model.Character.maxHealth" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.currentStrength">Current Strength (Max: @Model.Character.maxStrength)</label>
+                <input type="number" asp-for="Character.currentStrength" class="form-control" min="0" max="@Model.Character.maxStrength" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.currentDexterity">Current Dexterity (Max: @Model.Character.maxDexterity)</label>
+                <input type="number" asp-for="Character.currentDexterity" class="form-control" min="0" max="@Model.Character.maxDexterity" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.currentWill">Current Will (Max: @Model.Character.maxWill)</label>
+                <input type="number" asp-for="Character.currentWill" class="form-control" min="0" max="@Model.Character.maxWill" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.currentSpirit">Current Spirit (Max: @Model.Character.maxSpirit)</label>
+                <input type="number" asp-for="Character.currentSpirit" class="form-control" min="0" max="@Model.Character.maxSpirit" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.Armor">Armor</label>
+                <input type="number" asp-for="Character.Armor" class="form-control" />
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <h4>Equipment</h4>
+            <div class="mb-3">
+                <label asp-for="Character.LeftHand">Left Hand</label>
+                <input type="text" asp-for="Character.LeftHand" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.RightHand">Right Hand</label>
+                <input type="text" asp-for="Character.RightHand" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.Body1">Body Slot 1</label>
+                <input type="text" asp-for="Character.Body1" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.Body2">Body Slot 2</label>
+                <input type="text" asp-for="Character.Body2" class="form-control" />
+            </div>
+
+            <h4 class="mt-4">Backpack</h4>
+            <div class="mb-3">
+                <label asp-for="Character.Backpack1">Backpack Slot 1</label>
+                <input type="text" asp-for="Character.Backpack1" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.Backpack2">Backpack Slot 2</label>
+                <input type="text" asp-for="Character.Backpack2" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.Backpack3">Backpack Slot 3</label>
+                <input type="text" asp-for="Character.Backpack3" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.Backpack4">Backpack Slot 4</label>
+                <input type="text" asp-for="Character.Backpack4" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.Backpack5">Backpack Slot 5</label>
+                <input type="text" asp-for="Character.Backpack5" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.Backpack6">Backpack Slot 6</label>
+                <input type="text" asp-for="Character.Backpack6" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Character.Notes">Notes</label>
+                <textarea asp-for="Character.Notes" class="form-control" rows="4"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-3">
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+        <a href="/CharacterPages/CharacterPage/@Model.Character.Id" class="btn btn-secondary">Cancel</a>
+        <a href="/CharacterPages/EditCharacter/@Model.Character.Id" class="btn btn-warning">Edit Character</a>
+    </div>
+</form>
