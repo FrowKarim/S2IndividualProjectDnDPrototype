@@ -9,7 +9,7 @@ using LogicLayer.Interfaces;
 using DAL.Repos;
 
 
-namespace S2IndividualProjectDnDPrototype.Pages
+namespace S2IndividualProjectDnDPrototype.Pages.CharacterPages
 {
     public class CreateCharacterModel : PageModel
     {

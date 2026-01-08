@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using DAL.Repos;
 using LogicLayer.Entities;
 
-namespace S2IndividualProjectDnDPrototype.Pages
+namespace S2IndividualProjectDnDPrototype.Pages.CharacterPages
 {
     public class CharacterPageModel : PageModel
     {

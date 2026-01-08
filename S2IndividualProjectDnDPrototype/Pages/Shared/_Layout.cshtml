@@ -25,9 +25,21 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/LoginPage">Log in</a>
-                        </li>
+                        @{
+                            var role = Context.Session.GetString("IsDungeonMaster");
+                            if (string.IsNullOrEmpty(role))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-page="/LoginPage">Log in</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-page="/LogoutPage">Log out</a>
+                                </li>
+                            }
+                        }
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-page="/CampaignPages/CampaignList">Campaigns</a>
                         </li>

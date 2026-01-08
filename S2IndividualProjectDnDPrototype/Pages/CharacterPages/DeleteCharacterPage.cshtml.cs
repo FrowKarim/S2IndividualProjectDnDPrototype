@@ -3,7 +3,7 @@ using LogicLayer.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace S2IndividualProjectDnDPrototype.Pages
+namespace S2IndividualProjectDnDPrototype.Pages.CharacterPages
 {
     public class DeleteCharacterPageModel : PageModel
     {
