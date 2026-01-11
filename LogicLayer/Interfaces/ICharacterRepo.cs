@@ -14,5 +14,7 @@ namespace LogicLayer.Interfaces
         Character AddCharacter(Character character);
         Character UpdateCharacter(Character Character);
         Character DeleteCharacter(Character Character);
+
+        List<Character> GetCharactersByCampaign(int campaignID);
     }
 }

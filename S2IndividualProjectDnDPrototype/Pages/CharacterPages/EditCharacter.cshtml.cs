@@ -12,7 +12,7 @@ namespace S2IndividualProjectDnDPrototype.Pages.CharacterPages
         public int CharacterID { get; set; }
 
         [BindProperty]
-        public Character Character { get; set; }
+        public Character? Character { get; set; }
 
         public IActionResult OnGet()
         {
@@ -34,10 +34,10 @@ namespace S2IndividualProjectDnDPrototype.Pages.CharacterPages
 
         public IActionResult OnPost()
         {
-            if (!ModelState.IsValid)
-            {
-                return Page();
-            }
+            //if (!ModelState.IsValid)
+            //{      The reason I commented this out is because slots can be empty, idk how to make it valid while having NULL values here.
+            //    return Page();
+            //}
 
             if (Character == null || Character.Id <= 0)
             {

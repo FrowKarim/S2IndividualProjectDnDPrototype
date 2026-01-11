@@ -11,6 +11,8 @@ namespace LogicLayer.Entities
     public class Character
     {
         public int Id { get; set; }
+
+        [AllowNull]
         public User user { get; set; }
 
         

@@ -34,9 +34,8 @@ namespace S2IndividualProjectDnDPrototype.Pages.CampaignPages
 
         public List<Character> GetCharactersByCampaign(int campaignID)
         {
-            //CampaignService cs = new CampaignService(new CampaignRepo()); I NEED TO DO THIS INSTEAD
-            CharacterRepo characterRepo = new CharacterRepo();
-            return characterRepo.GetCharactersByCampaign(campaignID);
+            CharacterService cs = new CharacterService(new CharacterRepo());
+            return cs.GetCharactersByCampaign(campaignID);
         }
     }
 }

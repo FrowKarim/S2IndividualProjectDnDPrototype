@@ -35,5 +35,10 @@ namespace LogicLayer.Services
         {
             return _CharacterRepo.DeleteCharacter(character);
         }
+
+        public List<Character> GetCharactersByCampaign(int campaignID)
+        {
+            return _CharacterRepo.GetCharactersByCampaign(campaignID);
+        }
     }
 }
