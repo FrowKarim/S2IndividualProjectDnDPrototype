@@ -45,6 +45,7 @@ namespace S2IndividualProjectDnDPrototype.Pages.CharacterPages
             }
 
             CharacterService characterService = new CharacterService(new CharacterRepo());
+
             characterService.UpdateCharacter(Character);
 
             return RedirectToPage("/CharacterPages/CharacterPage", new { characterID = Character.Id });

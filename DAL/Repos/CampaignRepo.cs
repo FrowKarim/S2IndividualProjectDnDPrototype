@@ -131,10 +131,31 @@ namespace DAL.Repos
         }
 
 
-            public void UpdateCampaign(Campaign Campaign)
+            public Campaign UpdateCampaign(Campaign Campaign)
             {
-                throw new NotImplementedException();
+            string connectionString = ("Server=mssqlstud.fhict.local;" +
+                                "Database=dbi439179_test;" +
+                                "User Id=dbi439179_test;" +
+                                "Password=MSSQL; " +
+                                "TrustServerCertificate = true");
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (SqlCommand sqlcommand = new SqlCommand(
+                    "UPDATE Campaign" +
+                    "SET (CampaignName = @CampaignName, CampaignOwner = @CampaignOwner, Description = @Description) " + 
+                    "WHERE CampaignID = @ID" ,
+                    connection))
+                {
+                    sqlcommand.Parameters.AddWithValue("@CampaignName", Campaign.Name);
+                    sqlcommand.Parameters.AddWithValue("@CampaignOwner", Campaign.Owner);
+                    sqlcommand.Parameters.AddWithValue("@Description", Campaign.Description);
+                    sqlcommand.Parameters.AddWithValue("@ID", Campaign.Id);
+                    sqlcommand.ExecuteNonQuery();
+                }
+                return Campaign;
             }
+        }
 
             public Campaign DeleteCampaign(Campaign Campaign)
             {

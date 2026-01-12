@@ -2,7 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Http;
 using LogicLayer.Entities;
-using DAL;
+using LogicLayer.Services;
+using DAL.Repos;
 
 namespace S2IndividualProjectDnDPrototype.Pages
 {
@@ -12,7 +13,7 @@ namespace S2IndividualProjectDnDPrototype.Pages
         public User User { get; set; }
 
         public const string AdminSessionKey = "IsDungeonMaster";
-        public const int AccountUserID = 0;
+        public const string UserIDSessionKey = "UserID";
         public const int AccountCampaignID = 0;
 
 
@@ -34,19 +35,30 @@ namespace S2IndividualProjectDnDPrototype.Pages
 
         public IActionResult OnPost()
         {
-            if (User?.Name == "Hi" && User?.Password == "Bye")
+            // Validate input fields
+            if (string.IsNullOrWhiteSpace(User?.Name) || string.IsNullOrWhiteSpace(User?.Password))
             {
-                // Store a simple flag in session to indicate DM/admin
-                HttpContext.Session.SetString(AdminSessionKey, "true");
-                HttpContext.Session.SetInt32(nameof(AccountUserID), 1);
+                ViewData["Message"] = "Username and password are required.";
+                return Page();
+            }
+
+            // Authenticate user against database
+            UserService userService = new UserService(new UserRepo());
+            User authenticatedUser = userService.AuthenticateUser(User.Name, User.Password);
+
+            if (authenticatedUser != null)
+            {
+                // Set session variables with user ID
+                HttpContext.Session.SetInt32(UserIDSessionKey, authenticatedUser.Id);
                 HttpContext.Session.SetInt32(nameof(AccountCampaignID), 1);
 
-                return RedirectToPage("DMorPlayerPage");
+                // Redirect to DMorPlayerPage to ask for role selection
+                return RedirectToPage("/DMorPlayerPage");
             }
-            else 
-            { 
-                ViewData["Message"] = "Credentials incorrect";
-            return Page();
+            else
+            {
+                ViewData["Message"] = "Username or password is incorrect.";
+                return Page();
             }
         }
     }

@@ -15,6 +15,7 @@ namespace LogicLayer.Services
         {
             _CampaignRepo = _ICampaignRepo;
         }
+
         public Campaign GetCampaign(int CampaignID)
         {
 
@@ -30,6 +31,9 @@ namespace LogicLayer.Services
         {
             return _CampaignRepo.DeleteCampaign(Campaign);
         }
+
+
+
     }
 
 }

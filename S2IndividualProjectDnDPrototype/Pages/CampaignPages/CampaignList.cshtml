@@ -3,9 +3,11 @@
 @{
 }
 
-<a asp-page="/CampaignPages/CreateCampaignPage"  class="card-link btn btn-primary"> Create a new campaign </a>
+
 
 <div class="container center border-light " style="border-color: white; border-width: 2px;">
+    <a asp-page="/CampaignPages/CreateCampaignPage" class="card-link btn btn-primary" style="margin:0.5em;"> Create a new campaign </a>
+    <br />
     @foreach (LogicLayer.Entities.Campaign camp in Model.Campaigns)
     {
         <div class="card text-light text-center container-fluid" style="width:400px; margin:0.5em; background-color:var(--bg); ">

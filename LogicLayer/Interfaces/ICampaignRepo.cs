@@ -12,7 +12,7 @@ namespace LogicLayer.Interfaces
         List<Campaign> GetAllCampaigns();
         Campaign GetCampaign(int CampaignID);
         Campaign AddCampaign(Campaign Campaign);
-        void UpdateCampaign(Campaign Campaign);
+        Campaign UpdateCampaign(Campaign Campaign);
         Campaign DeleteCampaign(Campaign Campaign);
     }
 }

@@ -178,10 +178,12 @@ public class CharacterRepo : ICharacterRepo
         {
             connection.Open();
             using (SqlCommand sqlcommand = new SqlCommand(
-                "UPDATE CharacterSheet SET CurrentHP = @CurrentHP, CurrentStrength = @CurrentStrength, CurrentDex = @CurrentDex, " +
+                "UPDATE CharacterSheet " +
+                "SET CurrentHP = @CurrentHP, CurrentStrength = @CurrentStrength, CurrentDex = @CurrentDex, " +
                 "CurrentWill = @CurrentWill, CurrentSpirit = @CurrentSpirit, Armor = @Armor, LeftHand = @LeftHand, RightHand = @RightHand, " +
                 "Body1 = @Body1, Body2 = @Body2, Backpack1 = @Backpack1, Backpack2 = @Backpack2, Backpack3 = @Backpack3, Backpack4 = @Backpack4, " +
-                "Backpack5 = @Backpack5, Backpack6 = @Backpack6, Notes = @Notes WHERE CharacterID = @ID",
+                "Backpack5 = @Backpack5, Backpack6 = @Backpack6, Notes = @Notes " +
+                "WHERE CharacterID = @ID",
                 connection))
             {
                 sqlcommand.Parameters.AddWithValue("@ID", Character.Id);
