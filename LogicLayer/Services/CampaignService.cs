@@ -32,7 +32,11 @@ namespace LogicLayer.Services
             return _CampaignRepo.DeleteCampaign(Campaign);
         }
 
-
+        public Campaign UpdateCampaign(Campaign Campaign)
+        {
+            return _CampaignRepo.UpdateCampaign(Campaign);
+        
+        }
 
     }
 

@@ -89,10 +89,9 @@ namespace DAL.Repos
             }
 
             public List<Campaign> GetAllCampaigns()
-            {
+            
             {
                 List<Campaign> Campaigns = new List<Campaign>();
-
 
                 string connectionString = ("Server=mssqlstud.fhict.local;" +
                                     "Database=dbi439179_test;" +
@@ -128,7 +127,7 @@ namespace DAL.Repos
                 return Campaigns;
 
             }
-        }
+        
 
 
             public Campaign UpdateCampaign(Campaign Campaign)
@@ -142,8 +141,8 @@ namespace DAL.Repos
             {
                 connection.Open();
                 using (SqlCommand sqlcommand = new SqlCommand(
-                    "UPDATE Campaign" +
-                    "SET (CampaignName = @CampaignName, CampaignOwner = @CampaignOwner, Description = @Description) " + 
+                    "UPDATE Campaign " +
+                    "SET CampaignName = @CampaignName, CampaignOwner = @CampaignOwner, Description = @Description " + 
                     "WHERE CampaignID = @ID" ,
                     connection))
                 {
