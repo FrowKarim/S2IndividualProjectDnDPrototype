@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using LogicLayer.Entities;
 using LogicLayer.Services;
 using DAL.Repos;
+using static S2IndividualProjectDnDPrototype.Pages.LoginPageModel;
 
 namespace S2IndividualProjectDnDPrototype.Pages.CharacterPages
 {   
@@ -29,7 +30,20 @@ namespace S2IndividualProjectDnDPrototype.Pages.CharacterPages
                 return RedirectToPage("/Index");
             }
 
-            return Page();
+            var role = HttpContext.Session.GetString(AdminSessionKey);
+            if (role == "DungeonMaster")
+            {
+
+                return Page();
+            }
+            else if (role == "Player")
+            {
+                return RedirectToPage("/AccessDenied");
+            }
+            else
+                return RedirectToPage("/LoginPage");
+
+            
         }
 
         public IActionResult OnPost()
