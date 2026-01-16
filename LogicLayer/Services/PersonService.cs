@@ -1,21 +1,25 @@
-﻿using LogicLayer.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using LogicLayer.Entities;
+﻿using LogicLayer.Entities;
+using LogicLayer.Interfaces;
 
 namespace LogicLayer.Services
 {
     public class PersonService
     {
-        private IPersonRepo _personRepo;
+        private readonly IPersonRepo _personRepo;
 
-        public Person GetPerson(string PersonID)
+        public PersonService(IPersonRepo personRepo)
         {
-            return _personRepo.GetPerson(PersonID);
+            _personRepo = personRepo;
         }
 
+        public Person GetPerson(string personID)
+        {
+            return _personRepo.GetPerson(personID);
+        }
+
+        public List<Person> GetPeople()
+        {
+            return _personRepo.GetPeople();
+        }
     }
 }

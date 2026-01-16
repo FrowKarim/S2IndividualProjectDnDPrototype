@@ -32,6 +32,12 @@ namespace LogicLayer.Services
             return _CampaignRepo.DeleteCampaign(Campaign);
         }
 
+        public List<Campaign> GetAllCampaigns()
+        {
+            return _CampaignRepo.GetAllCampaigns();
+        }
+
+
         public Campaign UpdateCampaign(Campaign Campaign)
         {
             return _CampaignRepo.UpdateCampaign(Campaign);

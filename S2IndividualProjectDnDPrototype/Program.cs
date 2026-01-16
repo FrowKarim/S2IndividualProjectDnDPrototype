@@ -6,7 +6,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddScoped<LogicLayer.Interfaces.ICharacterRepo, DAL.Repos.CharacterRepo>();
 builder.Services.AddScoped<LogicLayer.Interfaces.IPersonRepo, DAL.Repos.PersonRepo>();
 builder.Services.AddScoped<LogicLayer.Interfaces.ICampaignRepo, DAL.Repos.CampaignRepo>();
-//builder.Services.AddScoped<LogicLayer.Interfaces.IUserRepo, DAL.Repos.UserRepo>();
+builder.Services.AddScoped<LogicLayer.Interfaces.IUserRepo, DAL.Repos.UserRepo>();
 builder.Services.AddDistributedMemoryCache();
 
 builder.Services.AddSession(options =>

@@ -1,7 +1,8 @@
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using DAL.Repos;
 using LogicLayer.Entities;
+using LogicLayer.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace S2IndividualProjectDnDPrototype.Pages
 {
@@ -11,7 +12,7 @@ namespace S2IndividualProjectDnDPrototype.Pages
 
         public void OnGet()
         {
-            PersonRepo conn = new PersonRepo();
+            PersonService conn = new PersonService(new PersonRepo());
             People = conn.GetPeople();
         }
     }

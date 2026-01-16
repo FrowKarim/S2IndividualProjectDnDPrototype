@@ -1,8 +1,9 @@
+using DAL.Repos;
+using LogicLayer.Entities;
+using LogicLayer.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.SqlClient;
-using LogicLayer.Entities;
-using DAL.Repos;
 
 namespace S2IndividualProjectDnDPrototype.Pages.PersonPages
 {
@@ -12,8 +13,8 @@ namespace S2IndividualProjectDnDPrototype.Pages.PersonPages
         
         public void OnGet()
         {
-            
-            PersonRepo conn = new PersonRepo();
+
+            PersonService conn = new PersonService(new PersonRepo());
             string userId = Request.Query["userID"].ToString();
             Person SinglePerson = conn.GetPerson(userId);
            
@@ -23,7 +24,7 @@ namespace S2IndividualProjectDnDPrototype.Pages.PersonPages
         
         public Person getSinglePerson()
         {
-            PersonRepo conn = new PersonRepo();
+            PersonService conn = new PersonService(new PersonRepo());
             string userId = Request.Query["userID"].ToString();
             Person SinglePerson = conn.GetPerson(userId);
             return SinglePerson;

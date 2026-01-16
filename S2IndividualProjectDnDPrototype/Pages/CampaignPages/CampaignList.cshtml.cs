@@ -1,8 +1,8 @@
+using DAL.Repos;
 using LogicLayer.Entities;
+using LogicLayer.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-
-using DAL.Repos;
 
 namespace S2IndividualProjectDnDPrototype.Pages.CampaignPages
 {
@@ -11,9 +11,9 @@ namespace S2IndividualProjectDnDPrototype.Pages.CampaignPages
         public List<Campaign> Campaigns = new List<Campaign>();
         public void OnGet()
         {
-            CampaignRepo conn = new CampaignRepo();
+            CampaignService cs = new CampaignService(new CampaignRepo());
 
-            Campaigns = conn.GetAllCampaigns();
+            Campaigns = cs.GetAllCampaigns();
         }
     }
 }
