@@ -33,7 +33,7 @@ namespace S2IndividualProjectDnDPrototype.Pages.CharacterPages
             }
             else if (role == "Player")
             {
-                return RedirectToPage("/Index");
+                return RedirectToPage("/AccessDenied");
             }
             else
                 return RedirectToPage("/LoginPage");

@@ -26,7 +26,7 @@ namespace S2IndividualProjectDnDPrototype.Pages.CampaignPages
             }
             else if (role == "Player")
             {
-                return RedirectToPage("/Index");
+                return RedirectToPage("/AccessDenied");
             }
             else
                 return RedirectToPage("/LoginPage");

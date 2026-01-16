@@ -19,9 +19,12 @@ namespace S2IndividualProjectDnDPrototype.Pages.CampaignPages
 
         public void OnGet()
         {
+
+
             CampaignID = Convert.ToInt32(Request.Query["campaignID"]);
             Campaign = getSingleCampaign();
             CampaignCharacters = GetCharactersByCampaign(CampaignID);
+
         }
 
         public Campaign getSingleCampaign()
