@@ -3,16 +3,72 @@
   "WorkspaceRootPath": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\characterpages\\editcharacter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\characterpages\\editcharacter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\characterpages\\editcharacter.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\characterpages\\editcharacter.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\characterpages\\deletecharacterpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\characterpages\\deletecharacterpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\campaignpages\\editcampaignpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\campaignpages\\editcampaignpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\newcharacterpages\\newcharacterpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\newcharacterpages\\newcharacterpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\newcharacterpages\\newcharacterpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\newcharacterpages\\newcharacterpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\newcharacterpages\\editnewcharacter.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\newcharacterpages\\editnewcharacter.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\newcharacterpages\\createnewcharacter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\newcharacterpages\\createnewcharacter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\newcharacterpages\\createnewcharacter.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\newcharacterpages\\createnewcharacter.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\newcharacterpages\\deletenewcharacter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\newcharacterpages\\deletenewcharacter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\newcharacterpages\\deletenewcharacter.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\newcharacterpages\\deletenewcharacter.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\newcharacterpages\\editnewcharacter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\newcharacterpages\\editnewcharacter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|d:\\github repos\\s2individualprojectdndprototype\\logiclayer\\services\\newcharacterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\services\\newcharacterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|d:\\github repos\\s2individualprojectdndprototype\\logiclayer\\entities\\newcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\entities\\newcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A7B839-D9B9-4771-B70A-8FE44D0D3D5C}|DAL\\DAL.csproj|d:\\github repos\\s2individualprojectdndprototype\\dal\\repos\\newcharacterrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A7B839-D9B9-4771-B70A-8FE44D0D3D5C}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\newcharacterrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|d:\\github repos\\s2individualprojectdndprototype\\logiclayer\\interfaces\\inewcharacterrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\interfaces\\inewcharacterrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|d:\\github repos\\s2individualprojectdndprototype\\logiclayer\\services\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{157BD763-5071-41B4-96D9-8D82C8FDF1ED}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\services\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\campaignpages\\editcampaignpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|solutionrelative:s2individualprojectdndprototype\\pages\\campaignpages\\editcampaignpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F84DBBF-3A75-4494-B8D7-EF887E59685D}|S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype.csproj|d:\\github repos\\s2individualprojectdndprototype\\s2individualprojectdndprototype\\pages\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -91,6 +147,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EditCharacter.cshtml",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\EditCharacter.cshtml",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\EditCharacter.cshtml",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\EditCharacter.cshtml",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\EditCharacter.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-20T12:17:46.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateNewCharacter.cshtml",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\CreateNewCharacter.cshtml",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\CreateNewCharacter.cshtml",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\CreateNewCharacter.cshtml",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\CreateNewCharacter.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-20T12:13:56.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditNewCharacter.cshtml.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\EditNewCharacter.cshtml.cs",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\EditNewCharacter.cshtml.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\EditNewCharacter.cshtml.cs",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\EditNewCharacter.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T12:10:39.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewCharacterPage.cshtml",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\NewCharacterPage.cshtml",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\NewCharacterPage.cshtml",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\NewCharacterPage.cshtml",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\NewCharacterPage.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABoAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-20T12:06:28.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewCharacterPage.cshtml.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\NewCharacterPage.cshtml.cs",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\NewCharacterPage.cshtml.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\NewCharacterPage.cshtml.cs",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\NewCharacterPage.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T12:11:34.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DeleteCharacterPage.cshtml.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\DeleteCharacterPage.cshtml.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\DeleteCharacterPage.cshtml.cs",
@@ -103,19 +224,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateCharacter.cshtml.cs",
-              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\CreateCharacter.cshtml.cs",
-              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\CreateCharacter.cshtml.cs",
-              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\CreateCharacter.cshtml.cs",
-              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\CreateCharacter.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EditCharacter.cshtml.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\EditCharacter.cshtml.cs",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\EditCharacter.cshtml.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\EditCharacter.cshtml.cs",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\EditCharacter.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T20:24:20.59Z"
+              "WhenOpened": "2026-01-16T20:41:15.872Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "CreateNewCharacter.cshtml.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\CreateNewCharacter.cshtml.cs",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\CreateNewCharacter.cshtml.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\CreateNewCharacter.cshtml.cs",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\CreateNewCharacter.cshtml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T12:07:55.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteNewCharacter.cshtml",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\DeleteNewCharacter.cshtml",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\DeleteNewCharacter.cshtml",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\DeleteNewCharacter.cshtml",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\DeleteNewCharacter.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-20T12:12:42.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeleteNewCharacter.cshtml.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\DeleteNewCharacter.cshtml.cs",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\DeleteNewCharacter.cshtml.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\DeleteNewCharacter.cshtml.cs",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\DeleteNewCharacter.cshtml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAC0AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T12:11:12.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditNewCharacter.cshtml",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\EditNewCharacter.cshtml",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\EditNewCharacter.cshtml",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\EditNewCharacter.cshtml",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\NewCharacterPages\\EditNewCharacter.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-20T12:08:30.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NewCharacterRepo.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\DAL\\Repos\\NewCharacterRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\NewCharacterRepo.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\DAL\\Repos\\NewCharacterRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\NewCharacterRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T11:58:06.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NewCharacterService.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Services\\NewCharacterService.cs",
+              "RelativeDocumentMoniker": "LogicLayer\\Services\\NewCharacterService.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Services\\NewCharacterService.cs",
+              "RelativeToolTip": "LogicLayer\\Services\\NewCharacterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T11:55:46.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "INewCharacterRepo.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Interfaces\\INewCharacterRepo.cs",
+              "RelativeDocumentMoniker": "LogicLayer\\Interfaces\\INewCharacterRepo.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Interfaces\\INewCharacterRepo.cs",
+              "RelativeToolTip": "LogicLayer\\Interfaces\\INewCharacterRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T11:53:59.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NewCharacter.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Entities\\NewCharacter.cs",
+              "RelativeDocumentMoniker": "LogicLayer\\Entities\\NewCharacter.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Entities\\NewCharacter.cs",
+              "RelativeToolTip": "LogicLayer\\Entities\\NewCharacter.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T11:51:49.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\AccessDenied.cshtml",
@@ -127,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "LoginPage.cshtml",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\LoginPage.cshtml",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\LoginPage.cshtml",
@@ -139,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "PersonPage.cshtml.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\PersonPage.cshtml.cs",
@@ -151,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "PersonService.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\LogicLayer\\Services\\PersonService.cs",
               "RelativeDocumentMoniker": "LogicLayer\\Services\\PersonService.cs",
@@ -159,11 +385,12 @@
               "RelativeToolTip": "LogicLayer\\Services\\PersonService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T17:34:16.371Z"
+              "WhenOpened": "2026-01-16T17:34:16.371Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\Index.cshtml.cs",
@@ -175,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 26,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\PersonPages\\Details.cshtml.cs",
@@ -187,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "CampaignList.cshtml.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignList.cshtml.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignList.cshtml.cs",
@@ -199,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "CampaignDetails.cshtml.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignDetails.cshtml.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CampaignDetails.cshtml.cs",
@@ -211,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
               "Title": "EditCampaignPage.cshtml.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\EditCampaignPage.cshtml.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\EditCampaignPage.cshtml.cs",
@@ -223,7 +450,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
+              "Title": "CreateCharacter.cshtml.cs",
+              "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\CreateCharacter.cshtml.cs",
+              "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\CreateCharacter.cshtml.cs",
+              "ToolTip": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\CreateCharacter.cshtml.cs",
+              "RelativeToolTip": "S2IndividualProjectDnDPrototype\\Pages\\CharacterPages\\CreateCharacter.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T20:24:20.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "CreateCampaignPage.cshtml.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CreateCampaignPage.cshtml.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\CreateCampaignPage.cshtml.cs",
@@ -235,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 24,
               "Title": "DeleteCampaignPage.cshtml.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\CampaignPages\\DeleteCampaignPage.cshtml.cs",
@@ -247,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 29,
               "Title": "CampaignServiceTests.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\Unit Test\\CampaignServiceTests.cs",
               "RelativeDocumentMoniker": "Unit Test\\CampaignServiceTests.cs",
@@ -259,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 30,
               "Title": "CharacterServiceTests.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\Unit Test\\CharacterServiceTests.cs",
               "RelativeDocumentMoniker": "Unit Test\\CharacterServiceTests.cs",
@@ -271,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 31,
               "Title": "CharacterServiceTests.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\LogicLayer.Tests\\Services\\CharacterServiceTests.cs",
               "RelativeDocumentMoniker": "LogicLayer.Tests\\Services\\CharacterServiceTests.cs",
@@ -283,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "LoginPage.cshtml.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Pages\\LoginPage.cshtml.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Pages\\LoginPage.cshtml.cs",
@@ -295,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\S2IndividualProjectDnDPrototype\\Program.cs",
               "RelativeDocumentMoniker": "S2IndividualProjectDnDPrototype\\Program.cs",
@@ -307,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 32,
               "Title": "CampaignServiceTests.cs",
               "DocumentMoniker": "D:\\Github Repos\\S2IndividualProjectDnDPrototype\\LogicLayer.Tests\\Services\\CampaignServiceTests.cs",
               "RelativeDocumentMoniker": "LogicLayer.Tests\\Services\\CampaignServiceTests.cs",

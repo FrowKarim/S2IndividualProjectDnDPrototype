@@ -1,0 +1,37 @@
+﻿@page "{characterID}"
+@model S2IndividualProjectDnDPrototype.Pages.NewCharacterPages.NewCharacterPageModel
+@{
+
+    LogicLayer.Entities.NewCharacter character = Model.getSingleNewCharacter();
+    <div class="card text-light text-center container-fluid" style="width:75% margin:0.5em; background-color:var(--bg); ">
+        <div>
+
+
+            <h4 class="card-title"> @character.Name    </h4>
+            <p class="card-text"> @character.Name is carrying a @character.LeftHand and is wearing @character.Body1.</p>
+            <p class="text-opacity-75 card-text"> Because of that he has an armor score of @character.Armor </p>
+
+            <h5>Other character stats</h5>
+            <p> @character.currentHealth / @character.maxHealth HP</p>
+            <p> @character.currentStrength / @character.maxStrength Strength</p>
+            <p> @character.currentDexterity / @character.maxDexterity Dexterity<p>
+            <p> @character.currentWill / @character.maxWill Willpower</p>
+            <p> @character.currentSpirit / @character.maxSpirit Spirit</p>
+            <p> @character.Armor Armor </p>
+            
+
+
+            <a asp-page="/Index" asp-route-hasreturnedtopage="yeah" class="card-link btn btn-primary"> Back To Index</a>
+            <a href="/NewCharacterPages/CreateNewCharacter" class="card-link btn btn-primary"> Create a new character </a>
+            <a href="/NewCharacterPages/EditNewCharacter/@character.Id" class="card-link btn btn-primary"> Edit NewCharacter</a>
+            <a asp-page="/NewCharacterPages/DeleteNewCharacterPage" asp-route-characterID="@character.Id" class="card-link btn btn-danger"> Delete</a>
+            
+
+
+
+        </div>
+    </div>
+    <br />
+}
+
+

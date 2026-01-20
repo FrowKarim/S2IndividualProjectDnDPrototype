@@ -1,0 +1,15 @@
+﻿@page
+@model S2IndividualProjectDnDPrototype.Pages.NewCharacterPages.DeleteNewCharacterPageModel
+@{
+
+LogicLayer.Entities.NewCharacter character = Model.getSingleNewCharacter();
+
+<h2>Are you sure you want to delete @character.Name</h2>
+
+    <a class="btn btn-primary" href="/CampaignPages/CampaignList">Cancel</a>
+
+    <form method="post" asp-route-characterID="@character.Id" asp-page-handler="DeleteCharacter" style="display:inline;">
+        <button type="submit" class="btn btn-primary">DELETE</button>
+    </form>
+
+}
